@@ -13,7 +13,7 @@ SQL Query Development
 Fraud Detection & Analysis
 Transaction Analytics
 Customer & Account Analysis
-Reporting & Insights Generation
+Reporting & Insights Generation 
 
 The project contains 8 relational tables with 1,000 records in each table, giving a total of 8,000 synthetic records.
 
