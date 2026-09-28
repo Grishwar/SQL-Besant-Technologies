@@ -1,0 +1,1001 @@
+transaction_id,account_id,beneficiary_id,transaction_date,transaction_type,channel,merchant,amount,location,status,is_fraud,fraud_reason
+1,976,,2025-11-22,ATM Withdrawal,Branch,,111472.73,Coimbatore,Success,0,
+2,569,145.0,2026-08-11,NEFT,Mobile App,,161475.87,Mumbai,Success,0,
+3,19,209.0,2025-11-28,Online Transfer,ATM,,47359.23,Hyderabad,Success,1,Unusual Location
+4,31,257.0,2025-10-18,UPI,Branch,Hospital,111674.78,Mumbai,Success,0,
+5,443,564.0,2025-05-22,NEFT,ATM,,110460.03,Mumbai,Failed,0,
+6,739,,2026-06-04,POS Purchase,Branch,Swiggy,4106.39,Bengaluru,Success,0,
+7,526,153.0,2026-02-05,IMPS,Mobile App,,111739.92,Bengaluru,Success,0,
+8,355,,2025-09-26,ATM Withdrawal,Internet Banking,,125249.2,Pune,Failed,1,Unusual Location
+9,233,422.0,2025-11-16,Online Transfer,POS,,197438.19,Bengaluru,Pending,1,Unusual Channel
+10,353,,2025-10-29,ATM Withdrawal,ATM,,248936.87,Coimbatore,Success,1,High Value Transaction
+11,791,,2025-04-20,POS Purchase,Branch,Grocery Store,140047.42,Coimbatore,Success,0,
+12,961,,2025-01-19,POS Purchase,Mobile App,Uber,17453.88,Delhi,Success,0,
+13,33,,2025-09-28,Cash Deposit,POS,,15301.98,Delhi,Success,0,
+14,56,,2026-04-15,Cash Deposit,POS,,21404.74,Coimbatore,Success,0,
+15,741,,2025-05-11,POS Purchase,POS,Hospital,219756.78,Delhi,Success,1,High Value Transaction
+16,129,12.0,2026-05-25,Online Transfer,Branch,,7438.33,Delhi,Success,0,
+17,333,743.0,2025-02-17,IMPS,Mobile App,,56174.65,Mumbai,Success,0,
+18,916,873.0,2025-11-04,UPI,Internet Banking,Fuel Station,36167.21,Chennai,Success,0,
+19,91,,2025-07-29,ATM Withdrawal,Mobile App,,83290.78,Mumbai,Success,0,
+20,153,86.0,2026-05-18,Online Transfer,Branch,,64942.3,Delhi,Success,0,
+21,168,768.0,2025-05-10,IMPS,ATM,,235056.29,Kochi,Success,1,Unusual Channel
+22,404,,2026-03-05,ATM Withdrawal,Branch,,113320.49,Delhi,Failed,0,
+23,955,283.0,2025-03-20,UPI,POS,Hospital,174727.61,Kochi,Failed,0,
+24,419,877.0,2025-10-04,UPI,Branch,Hospital,213090.08,Mumbai,Success,1,High Value Transaction
+25,679,,2025-02-07,ATM Withdrawal,POS,,39994.96,Delhi,Pending,0,
+26,112,580.0,2026-05-10,Online Transfer,Branch,,201588.47,Mumbai,Pending,1,Unusual Channel
+27,241,315.0,2026-03-06,Online Transfer,POS,,78370.43,Delhi,Success,0,
+28,971,,2026-03-20,ATM Withdrawal,Mobile App,,27704.67,Mumbai,Success,0,
+29,770,177.0,2025-01-18,Online Transfer,Mobile App,,89134.45,Delhi,Success,0,
+30,284,785.0,2025-05-07,NEFT,ATM,,200277.36,Coimbatore,Success,1,Multiple Failed Attempts
+31,505,,2025-03-24,Cash Deposit,Branch,,193550.11,Madurai,Success,1,Unusual Channel
+32,3,315.0,2025-08-19,UPI,POS,Utility Bill,214307.91,Salem,Success,1,Multiple Failed Attempts
+33,896,742.0,2025-03-08,IMPS,POS,,216013.62,Madurai,Success,1,Multiple Failed Attempts
+34,821,,2025-01-19,ATM Withdrawal,Internet Banking,,105001.88,Pune,Success,0,
+35,837,,2026-01-15,ATM Withdrawal,POS,,25279.05,Mumbai,Success,0,
+36,768,31.0,2025-05-02,IMPS,POS,,69813.58,Delhi,Success,0,
+37,626,,2025-01-05,Cash Deposit,Internet Banking,,186019.15,Hyderabad,Success,1,High Value Transaction
+38,731,395.0,2025-02-24,IMPS,Branch,,182522.2,Chennai,Success,1,High Value Transaction
+39,716,,2025-02-20,Cash Deposit,Internet Banking,,50490.94,Coimbatore,Success,0,
+40,283,,2026-05-02,ATM Withdrawal,POS,,8205.19,Coimbatore,Success,0,
+41,769,478.0,2026-07-23,NEFT,ATM,,172495.73,Delhi,Success,0,
+42,768,160.0,2025-12-30,NEFT,Internet Banking,,26330.08,Salem,Pending,0,
+43,53,596.0,2025-10-19,Online Transfer,ATM,,180467.46,Kochi,Success,1,Rapid Transfer Pattern
+44,889,,2026-03-25,ATM Withdrawal,ATM,,91228.18,Pune,Success,1,Multiple Failed Attempts
+45,170,,2025-06-20,ATM Withdrawal,Internet Banking,,176571.58,Madurai,Success,1,Unusual Location
+46,536,799.0,2026-04-25,UPI,POS,Hospital,186194.88,Chennai,Success,1,Unusual Location
+47,115,,2025-01-29,ATM Withdrawal,Internet Banking,,236378.8,Madurai,Success,1,High Value Transaction
+48,798,208.0,2026-01-29,IMPS,POS,,153930.81,Mumbai,Success,0,
+49,794,,2025-08-21,POS Purchase,Internet Banking,Amazon,30241.55,Kochi,Success,0,
+50,574,,2025-10-21,ATM Withdrawal,POS,,215836.46,Madurai,Success,1,Multiple Failed Attempts
+51,376,33.0,2025-01-16,UPI,Branch,Swiggy,196116.09,Mumbai,Success,1,Rapid Transfer Pattern
+52,199,,2026-02-09,POS Purchase,POS,Swiggy,199620.8,Bengaluru,Pending,1,High Value Transaction
+53,401,617.0,2026-01-27,IMPS,Internet Banking,,146311.54,Madurai,Success,1,Unusual Location
+54,266,454.0,2026-01-01,UPI,ATM,Flipkart,99662.86,Delhi,Success,0,
+55,122,963.0,2025-05-26,IMPS,Mobile App,,61552.36,Coimbatore,Success,0,
+56,754,398.0,2025-03-16,UPI,Mobile App,Amazon,28948.48,Kochi,Failed,0,
+57,223,,2025-06-10,ATM Withdrawal,Branch,,49486.47,Mumbai,Success,0,
+58,720,,2026-07-06,ATM Withdrawal,Branch,,187039.59,Hyderabad,Success,1,Rapid Transfer Pattern
+59,555,,2025-08-14,Cash Deposit,ATM,,213834.34,Chennai,Success,1,High Value Transaction
+60,757,324.0,2025-08-23,IMPS,ATM,,106329.09,Chennai,Success,0,
+61,378,737.0,2026-01-09,UPI,Internet Banking,Grocery Store,227906.83,Delhi,Success,1,Unusual Location
+62,731,,2025-12-04,POS Purchase,Branch,Zomato,198567.56,Mumbai,Success,1,High Value Transaction
+63,4,283.0,2026-05-26,IMPS,ATM,,81530.32,Delhi,Success,0,
+64,160,877.0,2025-05-06,IMPS,Branch,,122696.94,Pune,Success,0,
+65,566,789.0,2025-03-20,NEFT,ATM,,84306.31,Kochi,Failed,0,
+66,338,,2026-01-17,POS Purchase,POS,Hospital,201814.28,Kochi,Success,1,Rapid Transfer Pattern
+67,371,832.0,2026-04-18,UPI,ATM,Swiggy,64973.37,Hyderabad,Success,0,
+68,20,756.0,2026-01-14,IMPS,Mobile App,,38461.72,Mumbai,Success,0,
+69,474,,2025-04-15,ATM Withdrawal,Mobile App,,117194.1,Chennai,Success,1,High Value Transaction
+70,847,,2025-09-27,ATM Withdrawal,Mobile App,,125060.06,Kochi,Success,0,
+71,657,222.0,2025-04-11,UPI,ATM,Electronics Store,188184.36,Pune,Success,1,Unusual Channel
+72,543,,2025-03-16,POS Purchase,Internet Banking,Uber,4084.84,Madurai,Success,0,
+73,723,,2026-07-31,POS Purchase,Internet Banking,Swiggy,114808.79,Pune,Success,1,Unusual Location
+74,702,,2025-07-10,POS Purchase,Internet Banking,Grocery Store,132066.52,Madurai,Success,1,High Value Transaction
+75,460,669.0,2026-01-22,Online Transfer,POS,,104213.2,Hyderabad,Success,1,High Value Transaction
+76,881,,2025-08-02,POS Purchase,Mobile App,Grocery Store,208725.23,Delhi,Success,1,Unusual Channel
+77,367,,2026-06-01,POS Purchase,Branch,Electronics Store,150975.14,Salem,Success,0,
+78,918,,2026-06-20,ATM Withdrawal,Mobile App,,167988.3,Delhi,Success,0,
+79,240,797.0,2025-08-29,NEFT,Mobile App,,44173.59,Mumbai,Success,0,
+80,808,,2026-05-01,Cash Deposit,Branch,,6447.3,Hyderabad,Success,0,
+81,761,440.0,2025-09-21,Online Transfer,Branch,,21043.62,Chennai,Success,0,
+82,699,462.0,2025-03-01,Online Transfer,Internet Banking,,164093.78,Kochi,Success,1,Unusual Location
+83,512,871.0,2025-03-20,Online Transfer,Mobile App,,177698.92,Salem,Success,0,
+84,29,866.0,2025-07-05,IMPS,Branch,,60385.89,Kochi,Success,0,
+85,413,,2025-07-31,POS Purchase,Internet Banking,Swiggy,187419.84,Chennai,Success,1,Unusual Channel
+86,967,77.0,2026-04-21,UPI,ATM,Utility Bill,160901.89,Kochi,Success,0,
+87,124,,2025-06-18,ATM Withdrawal,Internet Banking,,242181.13,Chennai,Success,1,Unusual Channel
+88,632,296.0,2025-10-02,Online Transfer,ATM,,220771.92,Madurai,Success,1,Multiple Failed Attempts
+89,239,,2026-08-16,POS Purchase,ATM,Amazon,8192.25,Hyderabad,Success,0,
+90,826,,2026-08-06,ATM Withdrawal,POS,,44874.88,Madurai,Success,0,
+91,912,849.0,2025-03-21,NEFT,Internet Banking,,66608.65,Chennai,Success,0,
+92,26,905.0,2025-01-20,UPI,Internet Banking,Zomato,217101.05,Coimbatore,Success,1,Unusual Channel
+93,457,,2025-01-12,ATM Withdrawal,Mobile App,,221784.78,Chennai,Success,1,Unusual Channel
+94,214,939.0,2025-10-14,IMPS,Internet Banking,,46268.94,Delhi,Success,0,
+95,874,286.0,2026-03-31,IMPS,Internet Banking,,28371.8,Delhi,Pending,0,
+96,938,,2025-02-03,Cash Deposit,POS,,138846.23,Delhi,Success,0,
+97,333,,2026-07-18,POS Purchase,Mobile App,Utility Bill,65101.38,Coimbatore,Success,0,
+98,225,,2026-04-19,POS Purchase,POS,Swiggy,184566.21,Kochi,Success,1,High Value Transaction
+99,164,,2025-08-16,ATM Withdrawal,Internet Banking,,223712.44,Pune,Success,1,Rapid Transfer Pattern
+100,999,61.0,2025-05-09,IMPS,Internet Banking,,193123.78,Delhi,Success,1,Unusual Location
+101,405,171.0,2026-07-21,IMPS,POS,,161505.83,Mumbai,Success,0,
+102,211,601.0,2026-01-18,Online Transfer,Branch,,147069.21,Chennai,Success,0,
+103,1,,2025-11-05,Cash Deposit,Internet Banking,,126465.81,Chennai,Success,1,Unusual Location
+104,373,174.0,2025-02-15,IMPS,ATM,,188408.98,Madurai,Success,1,High Value Transaction
+105,579,610.0,2025-02-17,IMPS,POS,,239961.65,Bengaluru,Success,1,High Value Transaction
+106,926,244.0,2025-02-03,IMPS,Mobile App,,92913.77,Mumbai,Success,0,
+107,587,,2025-06-27,Cash Deposit,POS,,228476.05,Bengaluru,Success,1,Unusual Channel
+108,254,,2025-03-10,ATM Withdrawal,POS,,51651.86,Chennai,Success,0,
+109,384,353.0,2025-03-02,IMPS,Mobile App,,226476.46,Coimbatore,Success,1,Unusual Channel
+110,346,415.0,2026-08-18,IMPS,ATM,,70991.61,Madurai,Success,0,
+111,828,774.0,2025-09-09,NEFT,POS,,140109.51,Hyderabad,Success,0,
+112,302,607.0,2026-03-13,UPI,POS,Swiggy,212465.49,Chennai,Success,1,High Value Transaction
+113,356,237.0,2025-05-06,NEFT,Branch,,141126.23,Bengaluru,Success,0,
+114,808,594.0,2025-02-28,Online Transfer,ATM,,67439.5,Kochi,Success,0,
+115,770,138.0,2025-02-27,Online Transfer,Branch,,149651.22,Coimbatore,Success,0,
+116,991,,2025-11-13,POS Purchase,ATM,Hospital,124153.6,Pune,Success,0,
+117,68,610.0,2025-10-02,UPI,POS,Flipkart,226612.97,Salem,Success,1,Unusual Location
+118,351,186.0,2026-02-10,IMPS,ATM,,155571.32,Kochi,Success,0,
+119,235,132.0,2026-03-10,Online Transfer,POS,,25058.65,Mumbai,Success,0,
+120,155,,2025-09-15,Cash Deposit,Internet Banking,,166978.17,Delhi,Success,1,Unusual Channel
+121,719,,2025-08-23,Cash Deposit,Internet Banking,,6448.67,Chennai,Success,0,
+122,608,323.0,2025-05-21,NEFT,Branch,,39668.96,Mumbai,Success,0,
+123,171,,2025-12-06,ATM Withdrawal,Mobile App,,176317.12,Pune,Success,0,
+124,97,656.0,2025-04-18,NEFT,POS,,67799.35,Mumbai,Success,0,
+125,862,606.0,2026-04-18,IMPS,Internet Banking,,12437.41,Bengaluru,Success,0,
+126,620,881.0,2025-05-15,Online Transfer,Mobile App,,243458.81,Bengaluru,Pending,1,Multiple Failed Attempts
+127,559,692.0,2025-11-26,IMPS,Mobile App,,59143.12,Madurai,Success,0,
+128,605,,2026-05-10,ATM Withdrawal,Mobile App,,45165.14,Kochi,Success,0,
+129,505,214.0,2025-08-29,IMPS,Branch,,158548.43,Bengaluru,Success,0,
+130,572,,2025-02-28,ATM Withdrawal,Mobile App,,107556.59,Bengaluru,Success,0,
+131,734,282.0,2025-02-28,Online Transfer,Internet Banking,,135771.14,Madurai,Success,1,Multiple Failed Attempts
+132,805,544.0,2025-07-16,NEFT,Branch,,196118.55,Madurai,Success,1,Rapid Transfer Pattern
+133,717,808.0,2025-06-26,IMPS,Internet Banking,,109367.05,Chennai,Success,0,
+134,273,,2026-01-07,POS Purchase,Branch,Uber,99534.86,Hyderabad,Success,0,
+135,653,83.0,2026-08-23,NEFT,Mobile App,,218736.49,Delhi,Success,1,Unusual Channel
+136,177,547.0,2025-07-07,Online Transfer,ATM,,45973.37,Pune,Success,0,
+137,680,776.0,2025-11-04,UPI,POS,Electronics Store,233463.17,Bengaluru,Success,1,Unusual Channel
+138,604,,2025-04-03,POS Purchase,ATM,Swiggy,190143.71,Bengaluru,Success,1,Rapid Transfer Pattern
+139,90,,2025-01-14,Cash Deposit,POS,,71939.63,Salem,Success,0,
+140,428,420.0,2026-02-13,IMPS,Internet Banking,,98665.31,Chennai,Success,1,Rapid Transfer Pattern
+141,848,,2026-03-17,Cash Deposit,Mobile App,,209801.95,Hyderabad,Success,1,Unusual Location
+142,857,,2025-03-18,ATM Withdrawal,ATM,,71331.58,Chennai,Success,0,
+143,87,,2026-07-06,POS Purchase,Mobile App,Hospital,143772.71,Bengaluru,Success,0,
+144,306,,2025-08-16,ATM Withdrawal,ATM,,209104.85,Delhi,Success,1,High Value Transaction
+145,430,,2026-04-18,Cash Deposit,POS,,241276.13,Kochi,Success,1,Rapid Transfer Pattern
+146,410,,2025-02-26,ATM Withdrawal,Internet Banking,,70318.55,Kochi,Pending,0,
+147,892,731.0,2025-12-29,Online Transfer,POS,,32536.8,Chennai,Success,0,
+148,334,,2025-04-03,POS Purchase,POS,Electronics Store,57144.47,Delhi,Success,0,
+149,878,,2025-07-22,ATM Withdrawal,POS,,55810.56,Delhi,Success,0,
+150,659,,2025-10-17,Cash Deposit,Mobile App,,234220.46,Coimbatore,Pending,1,Rapid Transfer Pattern
+151,141,399.0,2025-12-24,NEFT,ATM,,234678.94,Mumbai,Failed,1,Rapid Transfer Pattern
+152,120,,2025-07-02,POS Purchase,Internet Banking,Electronics Store,228856.76,Kochi,Success,1,Unusual Location
+153,536,710.0,2025-08-02,UPI,ATM,Uber,90566.86,Salem,Success,0,
+154,639,902.0,2026-03-15,IMPS,Mobile App,,243672.04,Coimbatore,Success,1,Rapid Transfer Pattern
+155,103,856.0,2026-05-22,UPI,ATM,Hospital,127948.1,Salem,Success,0,
+156,177,,2025-10-21,POS Purchase,ATM,Grocery Store,75014.96,Hyderabad,Success,0,
+157,274,,2025-06-22,ATM Withdrawal,Internet Banking,,192896.76,Hyderabad,Success,1,Unusual Location
+158,800,,2026-08-10,POS Purchase,Branch,Uber,83876.75,Kochi,Success,0,
+159,12,379.0,2025-08-19,IMPS,Mobile App,,41460.4,Delhi,Success,0,
+160,141,,2026-04-24,Cash Deposit,ATM,,104563.6,Bengaluru,Success,0,
+161,445,669.0,2025-01-13,Online Transfer,ATM,,183512.16,Chennai,Success,1,Unusual Channel
+162,513,494.0,2025-10-02,NEFT,Mobile App,,218611.79,Bengaluru,Success,1,Rapid Transfer Pattern
+163,241,,2025-02-03,Cash Deposit,Branch,,80389.64,Salem,Success,1,Unusual Location
+164,547,501.0,2026-02-25,NEFT,Internet Banking,,19505.38,Coimbatore,Success,1,Unusual Location
+165,518,,2025-10-10,Cash Deposit,Mobile App,,239050.64,Hyderabad,Success,1,Unusual Location
+166,746,,2025-12-26,Cash Deposit,Internet Banking,,93856.6,Delhi,Success,0,
+167,425,,2025-08-28,POS Purchase,Internet Banking,Fuel Station,212285.01,Madurai,Failed,1,High Value Transaction
+168,377,837.0,2026-06-14,NEFT,ATM,,164814.48,Salem,Success,0,
+169,961,171.0,2026-08-14,UPI,Internet Banking,Flipkart,15046.64,Chennai,Success,0,
+170,316,858.0,2026-07-30,NEFT,Internet Banking,,83696.92,Delhi,Success,0,
+171,1000,922.0,2025-02-07,UPI,Internet Banking,Zomato,59123.35,Hyderabad,Success,1,Unusual Location
+172,607,,2026-03-27,POS Purchase,ATM,Zomato,127348.09,Chennai,Success,0,
+173,483,,2025-07-07,ATM Withdrawal,Branch,,175240.68,Bengaluru,Success,0,
+174,910,,2025-03-25,Cash Deposit,Mobile App,,214419.66,Salem,Success,1,Multiple Failed Attempts
+175,463,,2025-12-03,Cash Deposit,Internet Banking,,127070.5,Hyderabad,Success,1,Rapid Transfer Pattern
+176,693,770.0,2025-07-30,IMPS,ATM,,149488.9,Salem,Success,0,
+177,312,,2026-05-31,POS Purchase,Branch,Electronics Store,169966.35,Delhi,Success,0,
+178,865,865.0,2025-11-06,NEFT,Mobile App,,78796.66,Salem,Success,0,
+179,849,878.0,2026-07-29,UPI,ATM,Fuel Station,29575.26,Coimbatore,Success,0,
+180,412,211.0,2025-07-11,UPI,ATM,Amazon,170730.22,Coimbatore,Success,0,
+181,167,967.0,2026-08-18,NEFT,ATM,,144512.32,Salem,Success,0,
+182,858,,2026-08-04,Cash Deposit,ATM,,127291.65,Madurai,Failed,0,
+183,503,,2025-07-28,POS Purchase,Internet Banking,Zomato,30087.51,Kochi,Success,0,
+184,756,,2026-03-10,ATM Withdrawal,Branch,,228613.59,Mumbai,Success,1,Unusual Channel
+185,415,,2026-07-03,POS Purchase,ATM,Zomato,146869.34,Coimbatore,Success,0,
+186,244,709.0,2025-01-20,Online Transfer,Branch,,239414.55,Coimbatore,Success,1,Multiple Failed Attempts
+187,626,390.0,2025-07-03,UPI,ATM,Flipkart,244600.85,Salem,Success,1,Multiple Failed Attempts
+188,450,544.0,2025-06-16,Online Transfer,Mobile App,,47543.74,Mumbai,Success,0,
+189,935,252.0,2025-02-25,IMPS,Mobile App,,128206.16,Bengaluru,Success,0,
+190,711,552.0,2025-04-25,NEFT,ATM,,169605.81,Delhi,Success,0,
+191,881,977.0,2025-10-05,UPI,Internet Banking,Zomato,231863.01,Coimbatore,Success,1,Multiple Failed Attempts
+192,594,106.0,2026-01-24,IMPS,ATM,,215937.99,Mumbai,Failed,1,Multiple Failed Attempts
+193,944,,2025-04-06,POS Purchase,Branch,Utility Bill,180706.0,Chennai,Success,1,Unusual Location
+194,794,160.0,2026-02-27,UPI,ATM,Uber,11690.7,Chennai,Success,0,
+195,50,,2025-03-09,Cash Deposit,Branch,,50976.41,Kochi,Success,1,Unusual Channel
+196,542,892.0,2025-10-31,UPI,Branch,Uber,41484.54,Madurai,Success,0,
+197,970,529.0,2026-06-04,IMPS,ATM,,7644.66,Salem,Pending,0,
+198,975,647.0,2025-10-10,NEFT,Internet Banking,,141280.23,Coimbatore,Success,1,Multiple Failed Attempts
+199,3,,2026-01-30,Cash Deposit,ATM,,105803.29,Coimbatore,Success,0,
+200,484,,2026-06-28,POS Purchase,ATM,Swiggy,101595.51,Chennai,Success,0,
+201,123,432.0,2025-07-19,NEFT,POS,,114126.74,Mumbai,Success,0,
+202,224,,2025-07-08,Cash Deposit,Internet Banking,,81583.29,Mumbai,Success,0,
+203,535,12.0,2025-10-30,UPI,ATM,Swiggy,170148.66,Mumbai,Success,0,
+204,898,93.0,2025-06-09,UPI,Branch,Zomato,93546.35,Kochi,Success,1,High Value Transaction
+205,188,843.0,2025-03-02,Online Transfer,Branch,,137874.79,Hyderabad,Success,0,
+206,665,,2025-10-28,ATM Withdrawal,POS,,190285.16,Hyderabad,Success,1,Unusual Channel
+207,865,44.0,2025-12-27,NEFT,Mobile App,,191237.29,Pune,Success,1,Unusual Location
+208,262,,2026-01-12,ATM Withdrawal,Branch,,125357.92,Mumbai,Success,0,
+209,995,921.0,2026-06-07,UPI,Mobile App,Grocery Store,60843.59,Bengaluru,Success,0,
+210,896,255.0,2026-06-15,UPI,Internet Banking,Utility Bill,179240.72,Mumbai,Failed,1,Unusual Location
+211,421,,2025-02-09,POS Purchase,POS,Fuel Station,38152.31,Delhi,Success,0,
+212,619,,2025-10-18,Cash Deposit,Internet Banking,,193888.16,Salem,Success,1,Rapid Transfer Pattern
+213,596,876.0,2025-06-28,IMPS,Internet Banking,,77671.94,Bengaluru,Success,0,
+214,975,,2025-06-19,Cash Deposit,Branch,,64217.42,Delhi,Success,0,
+215,132,465.0,2026-08-06,UPI,Internet Banking,Hospital,2868.8,Delhi,Success,1,Rapid Transfer Pattern
+216,387,,2025-06-08,Cash Deposit,Branch,,152607.18,Salem,Failed,0,
+217,618,254.0,2025-08-09,NEFT,Branch,,197802.27,Pune,Success,1,Unusual Location
+218,886,,2026-04-21,Cash Deposit,Branch,,243137.12,Kochi,Success,1,Unusual Channel
+219,382,309.0,2025-05-05,UPI,ATM,Zomato,229099.5,Mumbai,Success,1,High Value Transaction
+220,536,917.0,2025-09-10,IMPS,Mobile App,,236887.03,Coimbatore,Success,1,Multiple Failed Attempts
+221,541,87.0,2025-06-08,IMPS,Branch,,186534.31,Bengaluru,Success,1,High Value Transaction
+222,5,51.0,2026-04-23,Online Transfer,Mobile App,,224211.52,Delhi,Success,1,Multiple Failed Attempts
+223,742,,2025-08-21,ATM Withdrawal,Mobile App,,186773.54,Chennai,Success,1,Multiple Failed Attempts
+224,73,,2026-08-12,ATM Withdrawal,ATM,,54510.02,Kochi,Success,0,
+225,923,,2025-05-16,Cash Deposit,Internet Banking,,158928.39,Chennai,Success,1,Multiple Failed Attempts
+226,446,305.0,2025-06-13,IMPS,Internet Banking,,161142.4,Bengaluru,Success,1,High Value Transaction
+227,338,188.0,2025-08-28,NEFT,POS,,155309.07,Pune,Success,1,High Value Transaction
+228,584,624.0,2025-04-15,UPI,Internet Banking,Hospital,233128.77,Mumbai,Success,1,Multiple Failed Attempts
+229,411,,2025-02-04,Cash Deposit,Branch,,31363.08,Pune,Success,0,
+230,135,,2026-01-09,ATM Withdrawal,Internet Banking,,219848.75,Hyderabad,Success,1,High Value Transaction
+231,460,441.0,2026-08-09,UPI,ATM,Utility Bill,153960.19,Kochi,Success,0,
+232,783,7.0,2025-11-14,NEFT,Mobile App,,162944.18,Hyderabad,Success,0,
+233,315,,2025-03-16,ATM Withdrawal,POS,,122739.05,Hyderabad,Success,0,
+234,634,509.0,2026-05-17,UPI,ATM,Electronics Store,79005.56,Hyderabad,Success,1,High Value Transaction
+235,509,232.0,2026-03-06,Online Transfer,ATM,,247645.78,Coimbatore,Success,1,Unusual Channel
+236,990,763.0,2026-08-21,NEFT,Mobile App,,11342.63,Salem,Success,0,
+237,605,42.0,2025-07-14,UPI,POS,Uber,49649.16,Bengaluru,Success,0,
+238,873,294.0,2026-07-18,Online Transfer,Internet Banking,,249076.99,Salem,Success,1,Rapid Transfer Pattern
+239,506,132.0,2025-08-19,UPI,Branch,Utility Bill,107869.85,Coimbatore,Failed,0,
+240,907,79.0,2025-03-15,IMPS,Internet Banking,,1384.05,Kochi,Success,0,
+241,941,712.0,2025-09-02,IMPS,Mobile App,,172046.48,Bengaluru,Success,0,
+242,608,995.0,2025-09-19,Online Transfer,Mobile App,,86843.61,Chennai,Success,0,
+243,76,355.0,2026-07-12,Online Transfer,Branch,,139630.26,Coimbatore,Success,1,High Value Transaction
+244,329,278.0,2026-02-06,UPI,Mobile App,Utility Bill,223809.87,Hyderabad,Success,1,High Value Transaction
+245,944,3.0,2025-02-21,NEFT,Internet Banking,,99653.08,Mumbai,Success,0,
+246,252,735.0,2025-11-15,IMPS,ATM,,223075.95,Pune,Failed,1,High Value Transaction
+247,553,,2026-07-14,ATM Withdrawal,POS,,69145.23,Bengaluru,Success,0,
+248,824,404.0,2025-06-14,NEFT,POS,,134952.95,Chennai,Success,0,
+249,381,,2026-02-13,Cash Deposit,Branch,,228843.1,Mumbai,Success,1,High Value Transaction
+250,676,,2025-11-26,Cash Deposit,ATM,,111259.53,Bengaluru,Success,0,
+251,347,727.0,2025-07-31,UPI,Mobile App,Zomato,22726.7,Hyderabad,Success,0,
+252,428,,2026-04-25,ATM Withdrawal,POS,,33124.57,Mumbai,Success,0,
+253,22,,2026-03-19,Cash Deposit,ATM,,125834.07,Kochi,Success,0,
+254,738,,2025-02-13,Cash Deposit,Internet Banking,,241242.14,Salem,Success,1,High Value Transaction
+255,614,,2025-10-16,ATM Withdrawal,Branch,,174852.95,Hyderabad,Success,0,
+256,205,,2026-01-23,POS Purchase,Internet Banking,Flipkart,170219.29,Coimbatore,Success,1,Rapid Transfer Pattern
+257,567,,2026-02-13,ATM Withdrawal,Mobile App,,84691.99,Hyderabad,Success,0,
+258,123,466.0,2025-06-12,NEFT,Internet Banking,,27948.45,Bengaluru,Success,1,Unusual Channel
+259,616,488.0,2026-05-04,NEFT,ATM,,226255.46,Mumbai,Success,1,Rapid Transfer Pattern
+260,304,696.0,2025-05-21,NEFT,ATM,,120113.9,Hyderabad,Success,0,
+261,769,587.0,2025-12-14,UPI,ATM,Zomato,15974.5,Salem,Success,0,
+262,898,418.0,2025-05-16,IMPS,Internet Banking,,198188.77,Delhi,Success,1,Rapid Transfer Pattern
+263,720,373.0,2025-08-26,UPI,ATM,Amazon,189760.14,Bengaluru,Success,1,High Value Transaction
+264,758,,2026-07-23,ATM Withdrawal,POS,,133701.68,Kochi,Success,0,
+265,929,833.0,2025-02-23,UPI,ATM,Fuel Station,97126.58,Hyderabad,Success,0,
+266,406,133.0,2026-06-28,IMPS,ATM,,59752.63,Coimbatore,Success,0,
+267,440,,2025-05-04,ATM Withdrawal,Branch,,66568.87,Chennai,Success,0,
+268,601,,2025-08-31,ATM Withdrawal,POS,,11046.05,Chennai,Success,1,Unusual Channel
+269,24,786.0,2026-04-17,Online Transfer,POS,,152116.68,Pune,Success,0,
+270,713,,2025-07-11,POS Purchase,ATM,Fuel Station,149404.21,Chennai,Success,0,
+271,734,,2026-04-20,ATM Withdrawal,POS,,133408.2,Pune,Failed,0,
+272,971,280.0,2025-05-21,Online Transfer,Mobile App,,123299.87,Chennai,Success,0,
+273,766,,2025-12-04,Cash Deposit,Mobile App,,139253.53,Hyderabad,Success,0,
+274,128,562.0,2026-02-03,NEFT,Branch,,139403.74,Pune,Success,0,
+275,543,408.0,2026-02-20,IMPS,Mobile App,,52919.21,Bengaluru,Success,0,
+276,612,127.0,2026-05-21,Online Transfer,POS,,198571.07,Salem,Success,1,Rapid Transfer Pattern
+277,717,,2026-02-23,ATM Withdrawal,POS,,101909.57,Coimbatore,Success,0,
+278,861,,2025-01-11,Cash Deposit,Internet Banking,,34970.99,Mumbai,Success,1,Unusual Channel
+279,776,362.0,2025-03-06,UPI,ATM,Utility Bill,105457.68,Madurai,Success,0,
+280,73,,2025-08-24,POS Purchase,ATM,Flipkart,93677.26,Delhi,Success,1,High Value Transaction
+281,324,64.0,2026-01-18,Online Transfer,Branch,,105869.36,Bengaluru,Success,0,
+282,310,,2026-03-29,POS Purchase,Branch,Hospital,18855.82,Mumbai,Success,0,
+283,385,219.0,2025-04-10,NEFT,Mobile App,,242160.43,Pune,Success,1,Unusual Location
+284,598,956.0,2025-03-23,NEFT,Internet Banking,,13698.12,Madurai,Success,0,
+285,545,415.0,2026-08-18,NEFT,Mobile App,,99525.12,Hyderabad,Success,0,
+286,398,,2025-07-19,Cash Deposit,POS,,221305.16,Pune,Success,1,Unusual Location
+287,271,,2026-02-10,Cash Deposit,Internet Banking,,156837.6,Madurai,Pending,1,Rapid Transfer Pattern
+288,704,764.0,2026-05-05,IMPS,POS,,117229.98,Kochi,Success,0,
+289,91,,2025-04-13,POS Purchase,ATM,Hospital,135561.01,Bengaluru,Success,0,
+290,618,871.0,2025-05-28,UPI,POS,Hospital,90034.19,Kochi,Success,0,
+291,699,,2025-02-10,Cash Deposit,Internet Banking,,33402.03,Bengaluru,Success,0,
+292,944,,2026-04-17,POS Purchase,POS,Fuel Station,33429.51,Salem,Success,0,
+293,669,,2025-08-31,POS Purchase,Internet Banking,Hospital,46789.23,Bengaluru,Success,0,
+294,548,48.0,2025-05-20,NEFT,POS,,216879.8,Hyderabad,Success,1,High Value Transaction
+295,590,632.0,2025-07-13,NEFT,ATM,,23570.79,Hyderabad,Success,1,Unusual Channel
+296,529,,2026-05-22,POS Purchase,POS,Flipkart,69797.18,Salem,Success,0,
+297,153,,2025-12-06,ATM Withdrawal,Internet Banking,,222375.55,Pune,Success,1,Rapid Transfer Pattern
+298,863,59.0,2026-03-30,Online Transfer,POS,,67255.38,Pune,Success,0,
+299,707,,2025-08-15,ATM Withdrawal,POS,,152377.02,Coimbatore,Success,0,
+300,734,252.0,2025-08-07,IMPS,Mobile App,,208101.34,Bengaluru,Success,1,Unusual Location
+301,641,,2026-05-20,POS Purchase,POS,Electronics Store,181204.12,Kochi,Success,1,Unusual Channel
+302,962,35.0,2026-02-12,NEFT,Branch,,18950.52,Delhi,Failed,0,
+303,748,572.0,2026-01-06,IMPS,Internet Banking,,119587.8,Chennai,Success,1,High Value Transaction
+304,344,,2025-11-08,POS Purchase,Branch,Swiggy,153629.23,Mumbai,Success,0,
+305,844,136.0,2026-05-23,UPI,Mobile App,Uber,9494.63,Chennai,Success,0,
+306,890,439.0,2026-04-10,IMPS,Mobile App,,108638.78,Delhi,Success,0,
+307,583,851.0,2025-06-13,IMPS,Internet Banking,,231508.33,Chennai,Success,1,Unusual Channel
+308,724,366.0,2026-02-18,IMPS,Branch,,101269.01,Mumbai,Failed,0,
+309,747,,2026-05-13,Cash Deposit,Internet Banking,,17836.35,Salem,Success,0,
+310,536,,2026-05-12,Cash Deposit,Branch,,231335.34,Salem,Success,1,Rapid Transfer Pattern
+311,863,264.0,2026-06-03,IMPS,ATM,,249314.23,Delhi,Success,1,Multiple Failed Attempts
+312,911,612.0,2025-08-01,Online Transfer,ATM,,78817.02,Bengaluru,Success,0,
+313,794,131.0,2025-05-15,Online Transfer,POS,,218111.09,Hyderabad,Pending,1,Rapid Transfer Pattern
+314,915,,2026-07-16,POS Purchase,ATM,Hospital,95313.4,Madurai,Success,0,
+315,77,,2026-07-30,ATM Withdrawal,Mobile App,,165167.17,Pune,Success,0,
+316,17,,2026-03-24,ATM Withdrawal,POS,,1120.53,Bengaluru,Success,0,
+317,198,,2026-05-25,Cash Deposit,Mobile App,,204173.45,Mumbai,Success,1,Unusual Channel
+318,350,66.0,2026-06-10,UPI,Branch,Grocery Store,99483.15,Madurai,Success,0,
+319,989,665.0,2026-05-10,UPI,Branch,Amazon,32279.09,Pune,Success,0,
+320,996,,2026-06-19,ATM Withdrawal,Internet Banking,,211970.24,Chennai,Success,1,High Value Transaction
+321,749,379.0,2026-02-15,NEFT,Mobile App,,50062.14,Mumbai,Success,0,
+322,589,772.0,2025-11-29,IMPS,Mobile App,,149904.65,Madurai,Success,0,
+323,455,,2025-07-17,Cash Deposit,Internet Banking,,155920.68,Madurai,Success,1,High Value Transaction
+324,877,824.0,2025-05-03,UPI,POS,Amazon,155261.78,Madurai,Success,0,
+325,902,,2025-01-08,ATM Withdrawal,Internet Banking,,35263.15,Coimbatore,Success,0,
+326,365,701.0,2026-06-03,NEFT,Internet Banking,,225227.0,Delhi,Pending,1,Rapid Transfer Pattern
+327,512,,2025-11-27,Cash Deposit,Internet Banking,,166410.87,Pune,Success,1,Rapid Transfer Pattern
+328,910,,2026-03-18,ATM Withdrawal,POS,,123433.76,Mumbai,Success,0,
+329,54,829.0,2026-03-01,UPI,Mobile App,Grocery Store,96665.06,Bengaluru,Success,0,
+330,59,333.0,2025-04-20,UPI,Internet Banking,Swiggy,89417.59,Bengaluru,Failed,0,
+331,883,,2026-04-29,ATM Withdrawal,Branch,,75703.89,Mumbai,Success,0,
+332,821,,2026-06-26,POS Purchase,POS,Fuel Station,212022.72,Madurai,Pending,1,High Value Transaction
+333,525,841.0,2026-04-27,IMPS,Mobile App,,193905.32,Chennai,Success,1,Unusual Location
+334,21,47.0,2025-11-02,UPI,POS,Uber,239587.04,Bengaluru,Failed,1,Multiple Failed Attempts
+335,659,,2025-12-07,POS Purchase,ATM,Amazon,102861.94,Madurai,Success,0,
+336,548,,2025-08-06,Cash Deposit,Mobile App,,55912.37,Mumbai,Success,0,
+337,13,488.0,2026-05-12,UPI,ATM,Hospital,146012.06,Kochi,Success,0,
+338,280,,2025-08-03,POS Purchase,Branch,Utility Bill,84225.18,Delhi,Success,0,
+339,540,363.0,2026-01-22,Online Transfer,ATM,,3394.31,Kochi,Success,0,
+340,522,,2025-11-26,ATM Withdrawal,Branch,,243423.3,Kochi,Success,1,Unusual Channel
+341,587,,2026-07-16,ATM Withdrawal,Mobile App,,62878.57,Chennai,Success,0,
+342,443,151.0,2025-02-15,NEFT,Branch,,372.33,Hyderabad,Pending,0,
+343,363,,2025-12-07,Cash Deposit,POS,,227845.76,Madurai,Success,1,High Value Transaction
+344,480,99.0,2026-08-01,Online Transfer,POS,,47883.33,Kochi,Success,1,Unusual Location
+345,293,979.0,2025-04-27,UPI,Mobile App,Uber,133194.34,Coimbatore,Success,0,
+346,436,739.0,2025-06-12,NEFT,Branch,,184479.74,Hyderabad,Success,1,Multiple Failed Attempts
+347,773,328.0,2026-06-17,IMPS,Branch,,181004.8,Delhi,Success,1,Rapid Transfer Pattern
+348,109,,2025-08-14,POS Purchase,POS,Swiggy,142680.83,Delhi,Success,0,
+349,659,,2025-10-14,Cash Deposit,Internet Banking,,90212.57,Bengaluru,Success,0,
+350,859,,2026-03-31,Cash Deposit,POS,,120193.33,Hyderabad,Success,0,
+351,394,990.0,2025-03-30,IMPS,Branch,,100773.49,Pune,Success,0,
+352,832,513.0,2025-06-03,IMPS,ATM,,132454.8,Mumbai,Success,0,
+353,908,425.0,2026-07-16,Online Transfer,Mobile App,,95433.05,Salem,Success,0,
+354,956,,2025-05-28,POS Purchase,POS,Zomato,105160.08,Kochi,Success,0,
+355,640,,2025-06-25,Cash Deposit,ATM,,125696.47,Hyderabad,Success,0,
+356,848,,2025-11-20,ATM Withdrawal,Internet Banking,,143344.89,Mumbai,Success,1,Multiple Failed Attempts
+357,643,,2026-04-23,ATM Withdrawal,Branch,,159476.79,Kochi,Success,0,
+358,721,322.0,2025-11-18,NEFT,Internet Banking,,64946.57,Hyderabad,Success,0,
+359,80,554.0,2025-02-10,IMPS,Branch,,247209.35,Kochi,Success,1,Unusual Location
+360,527,,2025-03-01,Cash Deposit,ATM,,16670.6,Madurai,Success,0,
+361,379,,2025-06-21,Cash Deposit,Internet Banking,,127530.95,Delhi,Success,1,Unusual Channel
+362,518,,2026-06-22,Cash Deposit,Internet Banking,,65967.28,Chennai,Success,0,
+363,983,244.0,2026-02-13,UPI,Internet Banking,Flipkart,4321.86,Bengaluru,Success,1,Multiple Failed Attempts
+364,29,827.0,2026-07-14,Online Transfer,ATM,,158045.51,Coimbatore,Success,0,
+365,581,,2025-04-11,Cash Deposit,Branch,,161795.47,Madurai,Success,0,
+366,836,8.0,2026-02-16,NEFT,Internet Banking,,202124.52,Delhi,Success,1,Multiple Failed Attempts
+367,38,,2026-08-24,ATM Withdrawal,Internet Banking,,218281.78,Bengaluru,Success,1,Unusual Channel
+368,604,237.0,2025-08-18,UPI,Branch,Uber,138753.75,Madurai,Success,0,
+369,870,944.0,2025-02-17,Online Transfer,Branch,,109221.06,Hyderabad,Success,0,
+370,46,424.0,2026-06-16,Online Transfer,Internet Banking,,105238.71,Hyderabad,Pending,0,
+371,196,499.0,2026-03-29,NEFT,Internet Banking,,84645.97,Hyderabad,Success,1,Unusual Channel
+372,861,,2025-11-27,POS Purchase,ATM,Utility Bill,201367.5,Pune,Success,1,Rapid Transfer Pattern
+373,451,,2025-04-06,ATM Withdrawal,Mobile App,,169062.18,Madurai,Success,0,
+374,618,728.0,2025-10-14,NEFT,POS,,168907.91,Mumbai,Success,0,
+375,377,,2025-04-18,Cash Deposit,POS,,245465.71,Coimbatore,Success,1,Rapid Transfer Pattern
+376,910,,2025-08-21,ATM Withdrawal,ATM,,120900.98,Pune,Success,0,
+377,204,769.0,2026-02-07,UPI,ATM,Grocery Store,100209.03,Salem,Success,0,
+378,39,633.0,2026-04-03,UPI,Internet Banking,Grocery Store,145736.55,Chennai,Success,1,Unusual Channel
+379,238,525.0,2025-10-26,Online Transfer,Mobile App,,159738.51,Mumbai,Success,0,
+380,485,238.0,2026-03-10,Online Transfer,ATM,,143668.79,Delhi,Pending,0,
+381,834,628.0,2025-11-23,UPI,POS,Electronics Store,5510.07,Hyderabad,Success,0,
+382,519,968.0,2026-05-26,IMPS,ATM,,165510.1,Pune,Success,0,
+383,940,240.0,2025-04-17,NEFT,POS,,40125.72,Madurai,Success,0,
+384,573,,2025-05-20,POS Purchase,ATM,Hospital,193528.4,Coimbatore,Success,1,Rapid Transfer Pattern
+385,944,233.0,2025-08-21,Online Transfer,POS,,176334.67,Bengaluru,Success,0,
+386,385,71.0,2026-07-18,NEFT,Mobile App,,213648.66,Pune,Success,1,Rapid Transfer Pattern
+387,551,478.0,2025-08-01,UPI,Internet Banking,Uber,61934.99,Mumbai,Success,1,Unusual Location
+388,727,,2026-08-10,POS Purchase,ATM,Utility Bill,63726.57,Madurai,Success,0,
+389,85,759.0,2025-04-28,UPI,Mobile App,Fuel Station,230402.37,Coimbatore,Success,1,Rapid Transfer Pattern
+390,14,,2026-06-10,POS Purchase,ATM,Flipkart,237081.32,Delhi,Success,1,High Value Transaction
+391,662,234.0,2025-11-04,Online Transfer,ATM,,208548.88,Mumbai,Success,1,Unusual Location
+392,716,262.0,2026-07-30,NEFT,Branch,,222350.86,Hyderabad,Success,1,Unusual Location
+393,295,,2025-05-09,POS Purchase,Branch,Grocery Store,6555.03,Delhi,Success,0,
+394,653,,2025-06-05,POS Purchase,ATM,Fuel Station,249230.48,Pune,Pending,1,High Value Transaction
+395,589,,2025-07-11,Cash Deposit,Internet Banking,,181529.65,Coimbatore,Success,1,Unusual Channel
+396,426,387.0,2026-03-02,UPI,ATM,Fuel Station,94340.18,Delhi,Pending,0,
+397,2,285.0,2025-06-28,Online Transfer,Internet Banking,,34973.51,Chennai,Success,0,
+398,870,,2025-10-03,POS Purchase,POS,Hospital,209587.91,Salem,Success,1,High Value Transaction
+399,922,996.0,2026-03-10,NEFT,Internet Banking,,247143.06,Madurai,Success,1,Unusual Location
+400,500,885.0,2026-04-09,NEFT,ATM,,89585.05,Salem,Success,0,
+401,154,124.0,2025-10-08,Online Transfer,Internet Banking,,158952.61,Mumbai,Success,1,Unusual Channel
+402,217,312.0,2026-02-09,IMPS,Mobile App,,61403.78,Pune,Success,1,Rapid Transfer Pattern
+403,144,113.0,2026-07-17,UPI,ATM,Fuel Station,217151.57,Hyderabad,Success,1,Unusual Channel
+404,389,,2026-01-01,Cash Deposit,Branch,,54624.5,Delhi,Failed,0,
+405,649,,2026-05-13,Cash Deposit,POS,,83780.29,Kochi,Success,0,
+406,902,,2025-01-27,ATM Withdrawal,Mobile App,,65750.78,Hyderabad,Failed,0,
+407,992,332.0,2025-01-03,IMPS,Branch,,198223.92,Bengaluru,Success,1,Rapid Transfer Pattern
+408,352,801.0,2025-10-05,NEFT,POS,,15980.12,Mumbai,Failed,0,
+409,262,145.0,2025-07-04,UPI,Internet Banking,Grocery Store,218763.71,Madurai,Success,1,High Value Transaction
+410,308,,2026-01-05,POS Purchase,POS,Uber,117258.61,Delhi,Success,1,High Value Transaction
+411,383,153.0,2026-01-02,Online Transfer,Branch,,171690.77,Coimbatore,Success,0,
+412,714,530.0,2026-04-23,UPI,Branch,Hospital,195438.75,Pune,Success,1,Unusual Channel
+413,896,293.0,2025-09-07,Online Transfer,ATM,,172082.1,Kochi,Success,0,
+414,446,,2026-06-26,Cash Deposit,POS,,106288.98,Pune,Success,1,High Value Transaction
+415,103,,2025-09-07,Cash Deposit,Internet Banking,,180799.36,Coimbatore,Success,1,Multiple Failed Attempts
+416,87,,2026-05-08,ATM Withdrawal,Mobile App,,81210.66,Madurai,Success,0,
+417,647,562.0,2025-03-21,IMPS,ATM,,26060.79,Madurai,Success,0,
+418,47,309.0,2025-05-12,UPI,Branch,Utility Bill,153823.35,Kochi,Success,0,
+419,417,439.0,2026-08-16,NEFT,ATM,,160614.47,Hyderabad,Success,0,
+420,829,184.0,2025-07-20,Online Transfer,Mobile App,,180399.36,Chennai,Success,1,High Value Transaction
+421,190,,2025-12-10,POS Purchase,Branch,Utility Bill,48889.89,Chennai,Success,0,
+422,938,,2025-04-08,POS Purchase,Mobile App,Flipkart,207752.51,Mumbai,Success,1,High Value Transaction
+423,414,,2025-09-20,ATM Withdrawal,ATM,,102273.53,Pune,Success,0,
+424,580,,2025-09-13,ATM Withdrawal,Internet Banking,,35502.71,Hyderabad,Success,0,
+425,532,,2025-02-02,POS Purchase,POS,Utility Bill,35248.32,Hyderabad,Success,0,
+426,602,387.0,2025-05-24,NEFT,POS,,32709.88,Chennai,Success,1,Multiple Failed Attempts
+427,776,,2025-09-20,ATM Withdrawal,ATM,,11684.63,Madurai,Success,0,
+428,229,,2026-01-08,POS Purchase,POS,Swiggy,144011.43,Madurai,Success,0,
+429,997,,2025-09-18,POS Purchase,POS,Utility Bill,29274.26,Delhi,Success,0,
+430,342,306.0,2025-11-02,Online Transfer,POS,,31647.48,Salem,Success,0,
+431,813,440.0,2025-07-17,Online Transfer,Branch,,1343.63,Mumbai,Success,0,
+432,56,,2025-09-11,Cash Deposit,Mobile App,,182447.66,Delhi,Success,1,Unusual Location
+433,641,284.0,2026-08-10,IMPS,POS,,226237.19,Madurai,Success,1,Rapid Transfer Pattern
+434,182,855.0,2025-04-05,IMPS,POS,,155495.43,Pune,Success,0,
+435,393,834.0,2025-12-07,UPI,Mobile App,Hospital,245460.93,Coimbatore,Success,1,Unusual Location
+436,984,524.0,2025-03-04,IMPS,POS,,39510.74,Salem,Failed,0,
+437,427,379.0,2025-08-13,Online Transfer,Internet Banking,,75106.56,Hyderabad,Success,0,
+438,596,,2025-10-05,POS Purchase,Mobile App,Fuel Station,174522.5,Delhi,Success,0,
+439,683,,2026-02-22,POS Purchase,Branch,Swiggy,58407.98,Salem,Success,0,
+440,348,,2025-07-27,POS Purchase,Mobile App,Fuel Station,187009.62,Kochi,Failed,1,Unusual Channel
+441,305,469.0,2026-03-05,UPI,ATM,Zomato,25904.11,Madurai,Failed,0,
+442,332,337.0,2026-05-28,NEFT,Mobile App,,67936.22,Delhi,Success,0,
+443,592,552.0,2025-05-31,IMPS,ATM,,6630.94,Mumbai,Success,0,
+444,605,,2026-07-14,Cash Deposit,Branch,,159764.98,Coimbatore,Success,0,
+445,363,86.0,2025-04-14,NEFT,Branch,,215124.99,Delhi,Failed,1,Multiple Failed Attempts
+446,672,24.0,2026-05-25,UPI,ATM,Zomato,49263.88,Kochi,Success,1,High Value Transaction
+447,483,281.0,2026-07-04,IMPS,ATM,,172814.22,Salem,Success,0,
+448,494,570.0,2025-05-24,NEFT,ATM,,239735.57,Delhi,Success,1,Multiple Failed Attempts
+449,213,,2025-07-21,ATM Withdrawal,Mobile App,,29544.38,Salem,Success,0,
+450,802,332.0,2025-10-12,UPI,POS,Swiggy,193337.89,Salem,Pending,1,Unusual Channel
+451,398,769.0,2026-02-20,Online Transfer,Mobile App,,210627.75,Hyderabad,Failed,1,Unusual Channel
+452,613,,2025-11-04,POS Purchase,Branch,Amazon,27310.3,Hyderabad,Success,0,
+453,587,113.0,2025-07-05,IMPS,ATM,,65639.89,Delhi,Success,0,
+454,393,,2025-04-01,Cash Deposit,Internet Banking,,179679.46,Salem,Success,1,High Value Transaction
+455,422,,2025-08-14,Cash Deposit,POS,,170513.82,Salem,Success,0,
+456,108,,2025-12-25,ATM Withdrawal,POS,,238987.55,Salem,Success,1,Unusual Location
+457,795,,2026-08-23,Cash Deposit,Branch,,179631.99,Chennai,Success,0,
+458,84,,2025-08-09,POS Purchase,Mobile App,Electronics Store,48752.39,Delhi,Success,0,
+459,673,547.0,2025-04-13,NEFT,Mobile App,,200046.89,Mumbai,Success,1,Multiple Failed Attempts
+460,559,746.0,2025-03-05,Online Transfer,ATM,,199305.89,Coimbatore,Success,1,Unusual Location
+461,615,,2025-04-04,ATM Withdrawal,Mobile App,,54205.88,Coimbatore,Success,0,
+462,999,86.0,2025-01-26,NEFT,Branch,,70803.15,Chennai,Success,0,
+463,672,,2025-06-04,POS Purchase,ATM,Grocery Store,224749.73,Madurai,Success,1,Unusual Location
+464,874,,2025-02-03,ATM Withdrawal,Internet Banking,,104306.74,Coimbatore,Success,0,
+465,617,866.0,2025-07-25,Online Transfer,POS,,9984.92,Mumbai,Success,0,
+466,761,268.0,2025-06-09,Online Transfer,Branch,,233640.29,Chennai,Success,1,Unusual Channel
+467,77,688.0,2025-04-09,NEFT,Internet Banking,,106424.23,Kochi,Success,0,
+468,951,,2025-03-23,POS Purchase,Branch,Utility Bill,147960.41,Kochi,Success,0,
+469,719,119.0,2025-07-28,IMPS,Internet Banking,,220951.54,Bengaluru,Success,1,High Value Transaction
+470,597,311.0,2026-04-21,IMPS,ATM,,170493.11,Chennai,Success,0,
+471,956,123.0,2025-05-16,IMPS,ATM,,130236.56,Madurai,Success,0,
+472,648,,2025-03-18,POS Purchase,Internet Banking,Hospital,74838.58,Hyderabad,Pending,0,
+473,488,390.0,2025-10-29,Online Transfer,Internet Banking,,212298.38,Delhi,Success,1,High Value Transaction
+474,245,,2026-05-27,ATM Withdrawal,ATM,,138571.52,Mumbai,Success,0,
+475,114,294.0,2025-06-23,UPI,ATM,Zomato,164439.57,Bengaluru,Success,0,
+476,291,,2025-03-26,ATM Withdrawal,POS,,219256.94,Pune,Success,1,High Value Transaction
+477,421,417.0,2026-07-16,UPI,POS,Uber,149243.31,Pune,Success,0,
+478,331,915.0,2025-03-18,NEFT,Internet Banking,,43957.54,Chennai,Success,0,
+479,373,478.0,2026-08-21,NEFT,ATM,,70820.63,Madurai,Success,0,
+480,629,,2025-10-17,Cash Deposit,Mobile App,,69051.72,Madurai,Success,0,
+481,973,,2025-12-15,ATM Withdrawal,ATM,,149511.28,Delhi,Success,0,
+482,962,797.0,2026-06-01,UPI,POS,Uber,165885.67,Bengaluru,Success,0,
+483,189,400.0,2026-02-18,NEFT,ATM,,112118.88,Bengaluru,Success,0,
+484,371,,2025-01-09,ATM Withdrawal,Mobile App,,101332.89,Kochi,Success,0,
+485,44,228.0,2025-01-06,IMPS,Mobile App,,20842.48,Delhi,Success,0,
+486,979,267.0,2025-02-11,IMPS,POS,,240258.5,Madurai,Success,1,High Value Transaction
+487,898,614.0,2025-03-02,NEFT,Internet Banking,,1386.51,Mumbai,Pending,0,
+488,824,550.0,2025-05-25,UPI,POS,Amazon,189948.1,Kochi,Success,1,Unusual Channel
+489,514,,2025-06-15,ATM Withdrawal,Mobile App,,180056.75,Bengaluru,Success,1,Multiple Failed Attempts
+490,152,,2026-07-03,Cash Deposit,POS,,45327.23,Mumbai,Success,0,
+491,888,,2025-11-01,POS Purchase,Mobile App,Amazon,38970.61,Chennai,Success,0,
+492,40,,2026-04-09,Cash Deposit,Mobile App,,181599.84,Salem,Success,1,Unusual Channel
+493,382,,2025-09-10,ATM Withdrawal,ATM,,222487.72,Pune,Success,1,Rapid Transfer Pattern
+494,199,169.0,2026-06-28,IMPS,Internet Banking,,79739.24,Salem,Success,0,
+495,846,718.0,2026-01-04,UPI,Mobile App,Electronics Store,2013.18,Madurai,Pending,0,
+496,614,,2025-01-30,Cash Deposit,POS,,189816.8,Bengaluru,Failed,1,High Value Transaction
+497,872,932.0,2025-12-04,Online Transfer,ATM,,18289.7,Hyderabad,Success,0,
+498,628,523.0,2025-04-08,IMPS,POS,,83295.79,Mumbai,Success,0,
+499,570,644.0,2025-05-12,UPI,Mobile App,Grocery Store,102556.6,Chennai,Success,0,
+500,657,,2026-01-30,Cash Deposit,Branch,,127533.85,Hyderabad,Success,0,
+501,510,,2025-08-21,Cash Deposit,ATM,,245336.57,Kochi,Success,1,High Value Transaction
+502,684,,2026-04-01,POS Purchase,Branch,Uber,36562.65,Hyderabad,Success,0,
+503,413,,2026-07-20,ATM Withdrawal,Mobile App,,149105.7,Pune,Pending,0,
+504,937,715.0,2025-01-22,Online Transfer,Branch,,123297.39,Madurai,Success,0,
+505,192,618.0,2026-03-17,NEFT,ATM,,144020.55,Salem,Success,0,
+506,707,,2026-07-11,POS Purchase,Branch,Fuel Station,74579.53,Chennai,Success,0,
+507,746,240.0,2026-04-09,Online Transfer,Internet Banking,,12212.89,Mumbai,Success,0,
+508,916,425.0,2025-04-06,UPI,Mobile App,Zomato,10903.5,Delhi,Success,0,
+509,71,,2025-08-14,Cash Deposit,ATM,,74780.35,Chennai,Success,0,
+510,200,656.0,2026-02-12,UPI,Branch,Uber,119779.77,Mumbai,Success,0,
+511,793,331.0,2025-01-10,IMPS,POS,,209357.19,Madurai,Success,1,Unusual Channel
+512,247,218.0,2025-11-05,Online Transfer,POS,,186012.26,Madurai,Success,1,High Value Transaction
+513,281,738.0,2025-12-05,NEFT,POS,,20096.13,Pune,Success,0,
+514,895,,2025-11-19,ATM Withdrawal,Mobile App,,99640.24,Kochi,Success,0,
+515,980,,2025-06-28,ATM Withdrawal,Internet Banking,,146281.27,Kochi,Success,1,Unusual Location
+516,16,,2025-09-02,POS Purchase,Mobile App,Zomato,40621.67,Hyderabad,Success,0,
+517,636,299.0,2026-01-03,NEFT,Branch,,198727.57,Bengaluru,Failed,1,High Value Transaction
+518,330,232.0,2025-02-17,IMPS,POS,,160044.98,Mumbai,Success,0,
+519,849,903.0,2025-04-03,UPI,Internet Banking,Electronics Store,35041.38,Bengaluru,Success,0,
+520,303,,2025-05-15,Cash Deposit,POS,,237824.49,Chennai,Success,1,Unusual Location
+521,476,368.0,2025-09-04,IMPS,POS,,135439.37,Salem,Success,0,
+522,416,,2025-01-06,POS Purchase,Internet Banking,Fuel Station,95674.19,Hyderabad,Pending,0,
+523,840,,2025-08-25,ATM Withdrawal,POS,,88802.32,Salem,Success,0,
+524,47,155.0,2025-02-16,IMPS,Mobile App,,75587.38,Delhi,Success,1,Multiple Failed Attempts
+525,50,,2025-08-20,POS Purchase,POS,Electronics Store,26650.1,Salem,Success,0,
+526,619,,2026-08-19,ATM Withdrawal,ATM,,15542.36,Pune,Success,0,
+527,386,736.0,2025-10-15,IMPS,Mobile App,,36641.6,Kochi,Success,0,
+528,758,,2026-04-06,Cash Deposit,Mobile App,,92179.71,Salem,Pending,1,Unusual Channel
+529,233,223.0,2025-05-20,IMPS,Mobile App,,217.57,Hyderabad,Success,0,
+530,395,939.0,2026-07-02,UPI,Internet Banking,Flipkart,162757.3,Mumbai,Success,1,Rapid Transfer Pattern
+531,452,455.0,2025-01-14,IMPS,POS,,183505.83,Coimbatore,Success,1,Rapid Transfer Pattern
+532,201,687.0,2026-04-08,NEFT,ATM,,169452.02,Kochi,Success,0,
+533,431,675.0,2026-04-28,Online Transfer,ATM,,177903.45,Delhi,Success,0,
+534,28,,2025-03-30,POS Purchase,Branch,Utility Bill,195960.0,Kochi,Success,1,Unusual Location
+535,679,136.0,2025-09-09,NEFT,Branch,,18637.36,Coimbatore,Success,1,Unusual Location
+536,490,25.0,2026-01-31,NEFT,Internet Banking,,156553.29,Kochi,Success,1,Unusual Channel
+537,344,,2025-05-07,POS Purchase,POS,Grocery Store,61594.0,Pune,Success,0,
+538,74,738.0,2025-10-19,UPI,Branch,Grocery Store,217264.27,Pune,Success,1,Unusual Location
+539,86,198.0,2025-01-23,IMPS,POS,,20873.29,Chennai,Success,0,
+540,765,252.0,2026-08-07,IMPS,Mobile App,,61285.82,Madurai,Success,0,
+541,714,,2025-09-23,POS Purchase,ATM,Fuel Station,37210.81,Pune,Success,0,
+542,642,628.0,2025-08-02,UPI,Internet Banking,Swiggy,125600.99,Kochi,Success,1,Multiple Failed Attempts
+543,731,700.0,2026-05-24,UPI,Branch,Fuel Station,64537.89,Pune,Success,0,
+544,904,,2025-05-23,POS Purchase,Branch,Amazon,246359.38,Coimbatore,Success,1,Rapid Transfer Pattern
+545,684,824.0,2025-12-28,IMPS,Internet Banking,,217712.47,Bengaluru,Success,1,Unusual Location
+546,300,378.0,2025-03-07,UPI,POS,Swiggy,46078.88,Kochi,Success,0,
+547,287,932.0,2025-09-12,Online Transfer,POS,,79049.08,Kochi,Pending,0,
+548,375,629.0,2026-04-26,Online Transfer,Internet Banking,,168193.04,Delhi,Success,1,Unusual Location
+549,524,834.0,2026-08-15,UPI,POS,Uber,73446.94,Pune,Success,0,
+550,23,982.0,2026-02-28,NEFT,POS,,76776.08,Salem,Success,0,
+551,582,880.0,2025-04-23,UPI,Branch,Swiggy,104759.78,Chennai,Success,0,
+552,785,184.0,2025-08-25,UPI,Internet Banking,Utility Bill,31680.7,Chennai,Success,0,
+553,599,888.0,2025-05-22,Online Transfer,Mobile App,,194428.78,Coimbatore,Success,1,High Value Transaction
+554,309,191.0,2025-05-31,IMPS,Mobile App,,109327.85,Hyderabad,Success,0,
+555,506,354.0,2026-05-20,IMPS,ATM,,115421.12,Salem,Success,0,
+556,899,,2025-02-23,ATM Withdrawal,Branch,,34321.39,Kochi,Success,0,
+557,236,,2026-04-09,Cash Deposit,POS,,162467.54,Madurai,Success,0,
+558,970,,2025-07-17,POS Purchase,POS,Electronics Store,235941.52,Bengaluru,Success,1,Multiple Failed Attempts
+559,716,405.0,2026-05-15,Online Transfer,ATM,,175819.73,Delhi,Success,0,
+560,456,,2025-05-24,POS Purchase,Internet Banking,Grocery Store,3036.5,Delhi,Success,0,
+561,116,,2025-02-20,POS Purchase,POS,Grocery Store,16934.17,Mumbai,Success,1,Rapid Transfer Pattern
+562,130,771.0,2025-08-06,Online Transfer,Branch,,96985.79,Delhi,Success,0,
+563,692,,2026-07-08,ATM Withdrawal,Branch,,144106.67,Salem,Success,0,
+564,742,,2026-01-26,ATM Withdrawal,POS,,185042.53,Chennai,Success,1,Rapid Transfer Pattern
+565,622,137.0,2025-01-25,UPI,Branch,Grocery Store,229346.89,Pune,Failed,1,Rapid Transfer Pattern
+566,582,,2025-05-30,ATM Withdrawal,ATM,,178826.55,Mumbai,Success,0,
+567,782,,2026-01-19,Cash Deposit,POS,,216804.69,Chennai,Success,1,High Value Transaction
+568,80,487.0,2025-12-20,Online Transfer,Mobile App,,27159.47,Madurai,Success,0,
+569,917,,2025-08-10,ATM Withdrawal,Branch,,177149.57,Madurai,Success,0,
+570,591,654.0,2025-03-11,NEFT,ATM,,159766.69,Chennai,Success,0,
+571,279,522.0,2025-12-15,Online Transfer,Internet Banking,,60573.37,Coimbatore,Success,0,
+572,854,,2025-08-11,Cash Deposit,ATM,,82610.17,Kochi,Success,0,
+573,328,,2025-01-13,ATM Withdrawal,POS,,88130.68,Coimbatore,Failed,1,Multiple Failed Attempts
+574,954,861.0,2026-04-07,Online Transfer,Internet Banking,,79508.51,Madurai,Success,0,
+575,94,,2025-06-08,Cash Deposit,ATM,,240520.44,Kochi,Success,1,High Value Transaction
+576,415,,2025-07-29,Cash Deposit,Branch,,224374.69,Kochi,Success,1,Unusual Location
+577,96,,2026-06-14,Cash Deposit,Internet Banking,,26765.1,Delhi,Success,0,
+578,583,450.0,2025-12-31,IMPS,Internet Banking,,142864.43,Salem,Success,1,Multiple Failed Attempts
+579,207,,2025-03-09,POS Purchase,Internet Banking,Electronics Store,166032.5,Chennai,Success,1,High Value Transaction
+580,341,,2026-01-19,Cash Deposit,POS,,242414.68,Hyderabad,Success,1,Multiple Failed Attempts
+581,69,154.0,2026-07-13,UPI,Mobile App,Utility Bill,147056.81,Hyderabad,Success,0,
+582,246,,2026-06-06,Cash Deposit,Branch,,246848.48,Bengaluru,Success,1,Unusual Location
+583,410,,2026-05-09,ATM Withdrawal,Internet Banking,,164898.59,Pune,Success,1,High Value Transaction
+584,698,439.0,2026-07-16,IMPS,Mobile App,,82629.69,Kochi,Success,0,
+585,214,808.0,2026-06-12,IMPS,POS,,1174.69,Pune,Success,1,Unusual Location
+586,184,831.0,2025-08-16,UPI,Internet Banking,Uber,119799.56,Pune,Success,0,
+587,380,169.0,2025-11-24,NEFT,ATM,,202770.43,Bengaluru,Success,1,Rapid Transfer Pattern
+588,967,,2026-07-12,ATM Withdrawal,POS,,75026.07,Kochi,Success,1,High Value Transaction
+589,549,908.0,2025-01-09,UPI,POS,Electronics Store,229032.76,Hyderabad,Success,1,Unusual Channel
+590,973,467.0,2025-04-29,UPI,Internet Banking,Flipkart,120996.68,Madurai,Success,1,Rapid Transfer Pattern
+591,132,204.0,2025-01-02,UPI,Branch,Hospital,173354.18,Chennai,Success,0,
+592,930,,2025-10-13,ATM Withdrawal,ATM,,20827.75,Bengaluru,Success,0,
+593,692,,2026-05-11,POS Purchase,ATM,Electronics Store,72637.82,Kochi,Success,0,
+594,634,958.0,2025-05-04,IMPS,Internet Banking,,208571.24,Salem,Success,1,Unusual Location
+595,111,791.0,2026-02-13,NEFT,Branch,,94111.93,Delhi,Success,0,
+596,417,,2026-01-22,Cash Deposit,Branch,,74069.31,Madurai,Success,0,
+597,200,731.0,2026-01-11,Online Transfer,ATM,,71964.26,Bengaluru,Success,1,Rapid Transfer Pattern
+598,968,374.0,2025-07-20,NEFT,Internet Banking,,34688.58,Kochi,Success,0,
+599,981,,2025-09-22,POS Purchase,ATM,Zomato,173669.93,Salem,Success,0,
+600,470,250.0,2026-03-08,NEFT,Mobile App,,5410.67,Chennai,Success,0,
+601,343,930.0,2025-12-03,NEFT,Branch,,123261.16,Chennai,Success,0,
+602,99,32.0,2026-06-01,UPI,POS,Amazon,11059.67,Bengaluru,Success,0,
+603,574,,2025-12-11,POS Purchase,Mobile App,Hospital,142997.97,Kochi,Success,0,
+604,941,,2025-10-23,POS Purchase,Mobile App,Grocery Store,213487.28,Madurai,Success,1,Rapid Transfer Pattern
+605,504,,2025-04-21,Cash Deposit,POS,,223618.28,Mumbai,Success,1,Unusual Location
+606,584,918.0,2026-06-02,Online Transfer,Internet Banking,,22913.29,Delhi,Pending,0,
+607,397,832.0,2025-06-09,NEFT,POS,,213280.64,Chennai,Success,1,High Value Transaction
+608,966,837.0,2026-02-22,UPI,POS,Fuel Station,248729.15,Pune,Success,1,Multiple Failed Attempts
+609,146,,2025-06-20,Cash Deposit,Mobile App,,77663.45,Kochi,Success,0,
+610,298,753.0,2025-05-25,IMPS,ATM,,753.17,Chennai,Success,0,
+611,681,328.0,2025-03-30,Online Transfer,Internet Banking,,12502.41,Salem,Success,0,
+612,785,,2025-04-28,POS Purchase,POS,Fuel Station,84546.32,Hyderabad,Success,0,
+613,901,328.0,2026-03-07,NEFT,POS,,161276.67,Hyderabad,Success,0,
+614,730,,2025-04-02,POS Purchase,ATM,Amazon,190680.53,Chennai,Success,1,Multiple Failed Attempts
+615,54,,2026-07-21,Cash Deposit,Branch,,131628.21,Kochi,Success,0,
+616,745,178.0,2026-06-24,Online Transfer,Branch,,987.52,Hyderabad,Success,0,
+617,975,615.0,2025-07-04,Online Transfer,Branch,,69741.89,Salem,Success,0,
+618,637,,2025-08-14,ATM Withdrawal,Mobile App,,184924.81,Kochi,Success,1,High Value Transaction
+619,249,547.0,2025-01-26,UPI,POS,Grocery Store,192601.58,Coimbatore,Success,1,Unusual Channel
+620,691,,2026-08-09,Cash Deposit,ATM,,158833.84,Mumbai,Success,0,
+621,916,868.0,2025-01-04,Online Transfer,Internet Banking,,174382.15,Pune,Failed,1,Unusual Channel
+622,76,38.0,2025-12-24,IMPS,ATM,,248377.69,Madurai,Failed,1,Unusual Channel
+623,9,953.0,2025-07-27,UPI,Internet Banking,Hospital,215518.29,Kochi,Success,1,Rapid Transfer Pattern
+624,143,,2025-05-24,Cash Deposit,ATM,,23756.66,Delhi,Success,0,
+625,486,664.0,2025-01-30,NEFT,Mobile App,,249674.68,Coimbatore,Success,1,Unusual Location
+626,438,491.0,2026-02-12,IMPS,ATM,,119786.16,Bengaluru,Success,0,
+627,556,,2025-08-30,POS Purchase,Internet Banking,Fuel Station,202641.79,Madurai,Success,1,Rapid Transfer Pattern
+628,26,802.0,2025-06-15,NEFT,Internet Banking,,22036.62,Kochi,Failed,0,
+629,177,,2026-03-19,POS Purchase,Internet Banking,Fuel Station,148071.92,Kochi,Success,1,Multiple Failed Attempts
+630,12,407.0,2025-03-29,NEFT,POS,,142512.01,Delhi,Pending,0,
+631,333,,2026-07-05,Cash Deposit,Branch,,42335.12,Salem,Success,0,
+632,299,,2025-04-19,POS Purchase,Mobile App,Swiggy,145236.96,Pune,Success,0,
+633,489,,2025-11-27,POS Purchase,Internet Banking,Hospital,120120.04,Kochi,Success,1,High Value Transaction
+634,563,,2026-06-29,Cash Deposit,Mobile App,,209667.29,Chennai,Success,1,High Value Transaction
+635,941,112.0,2026-02-01,Online Transfer,ATM,,177674.56,Pune,Success,0,
+636,597,,2025-12-27,ATM Withdrawal,POS,,47198.9,Delhi,Success,0,
+637,96,862.0,2025-11-12,UPI,ATM,Grocery Store,133642.36,Delhi,Success,0,
+638,894,618.0,2025-07-08,IMPS,ATM,,162906.93,Mumbai,Success,1,Unusual Channel
+639,536,,2025-12-24,Cash Deposit,Internet Banking,,236978.75,Kochi,Pending,1,Unusual Channel
+640,658,,2025-05-07,POS Purchase,Branch,Flipkart,4263.41,Bengaluru,Success,0,
+641,14,,2025-02-06,Cash Deposit,Internet Banking,,16045.58,Kochi,Success,0,
+642,586,,2025-12-19,ATM Withdrawal,Internet Banking,,188583.4,Bengaluru,Pending,1,Unusual Channel
+643,233,216.0,2025-05-02,UPI,Branch,Grocery Store,212760.42,Chennai,Success,1,High Value Transaction
+644,14,21.0,2025-05-20,UPI,POS,Uber,195636.51,Bengaluru,Failed,1,Unusual Location
+645,143,245.0,2026-04-26,IMPS,Branch,,64964.64,Mumbai,Pending,0,
+646,715,827.0,2025-10-11,UPI,ATM,Uber,202262.22,Delhi,Failed,1,Multiple Failed Attempts
+647,377,262.0,2025-02-20,NEFT,Internet Banking,,225332.73,Delhi,Success,1,Unusual Location
+648,808,382.0,2025-08-13,NEFT,Mobile App,,52148.83,Mumbai,Success,0,
+649,68,999.0,2026-07-04,NEFT,Internet Banking,,70243.78,Delhi,Success,0,
+650,895,806.0,2025-10-31,NEFT,Mobile App,,128576.92,Madurai,Success,0,
+651,235,646.0,2025-06-13,Online Transfer,Branch,,165371.48,Delhi,Success,0,
+652,222,247.0,2025-06-07,UPI,Mobile App,Amazon,108600.73,Kochi,Success,0,
+653,538,,2025-06-12,Cash Deposit,Branch,,117802.79,Delhi,Success,0,
+654,625,893.0,2026-03-17,NEFT,Mobile App,,140257.08,Salem,Success,0,
+655,888,810.0,2025-11-09,Online Transfer,ATM,,133939.43,Pune,Success,0,
+656,370,,2025-06-29,ATM Withdrawal,Branch,,248632.07,Madurai,Success,1,Unusual Location
+657,170,,2026-04-14,ATM Withdrawal,ATM,,183230.81,Hyderabad,Success,1,Multiple Failed Attempts
+658,777,,2026-05-17,ATM Withdrawal,Internet Banking,,49118.14,Bengaluru,Success,0,
+659,605,993.0,2025-01-05,NEFT,Mobile App,,78751.6,Hyderabad,Success,0,
+660,30,,2025-12-26,POS Purchase,Mobile App,Flipkart,15952.57,Pune,Success,0,
+661,136,352.0,2025-01-24,NEFT,ATM,,172313.0,Bengaluru,Pending,0,
+662,97,143.0,2026-04-21,Online Transfer,POS,,77981.8,Salem,Success,0,
+663,701,769.0,2026-05-19,NEFT,POS,,171697.47,Salem,Success,0,
+664,777,,2025-09-02,ATM Withdrawal,ATM,,82719.87,Pune,Success,0,
+665,282,,2026-01-02,POS Purchase,Internet Banking,Swiggy,248440.3,Kochi,Success,1,Unusual Channel
+666,565,826.0,2025-12-19,NEFT,Internet Banking,,108589.37,Coimbatore,Success,0,
+667,537,,2025-12-25,POS Purchase,Branch,Utility Bill,90933.0,Mumbai,Success,0,
+668,83,818.0,2025-03-24,IMPS,Internet Banking,,64960.06,Salem,Success,0,
+669,97,367.0,2025-11-17,NEFT,Mobile App,,19690.28,Hyderabad,Success,0,
+670,716,191.0,2026-07-11,IMPS,Internet Banking,,7909.53,Coimbatore,Success,0,
+671,205,864.0,2025-05-24,Online Transfer,Internet Banking,,61937.94,Coimbatore,Success,0,
+672,851,264.0,2025-04-14,UPI,POS,Swiggy,118959.36,Delhi,Success,0,
+673,264,,2026-02-06,Cash Deposit,Internet Banking,,131477.19,Bengaluru,Success,1,Multiple Failed Attempts
+674,956,,2026-03-18,Cash Deposit,POS,,14896.77,Hyderabad,Success,0,
+675,865,,2025-03-17,Cash Deposit,Branch,,58794.36,Delhi,Success,0,
+676,964,739.0,2026-07-07,Online Transfer,ATM,,14923.15,Bengaluru,Failed,0,
+677,129,452.0,2025-08-22,NEFT,Internet Banking,,228603.45,Coimbatore,Failed,1,Unusual Channel
+678,288,942.0,2026-07-24,IMPS,Branch,,195432.99,Madurai,Pending,1,Rapid Transfer Pattern
+679,515,,2025-02-28,ATM Withdrawal,Mobile App,,86104.66,Bengaluru,Success,0,
+680,836,696.0,2025-05-29,Online Transfer,Mobile App,,60648.67,Madurai,Success,1,Unusual Channel
+681,110,,2026-01-15,POS Purchase,Internet Banking,Electronics Store,61654.49,Delhi,Success,0,
+682,621,,2025-01-25,ATM Withdrawal,Mobile App,,152447.51,Mumbai,Success,0,
+683,199,,2025-11-03,Cash Deposit,POS,,223835.5,Hyderabad,Success,1,Multiple Failed Attempts
+684,382,703.0,2025-06-10,IMPS,ATM,,56333.46,Salem,Success,0,
+685,122,,2025-05-31,ATM Withdrawal,Mobile App,,169583.1,Salem,Success,1,Unusual Location
+686,620,932.0,2026-04-08,IMPS,Mobile App,,31714.11,Hyderabad,Success,0,
+687,522,86.0,2025-02-24,UPI,POS,Grocery Store,27974.52,Kochi,Success,0,
+688,634,,2026-02-11,ATM Withdrawal,Branch,,38989.39,Salem,Failed,0,
+689,806,,2026-05-11,POS Purchase,Internet Banking,Flipkart,80633.53,Chennai,Success,0,
+690,579,2.0,2026-03-29,UPI,Internet Banking,Uber,128509.81,Pune,Success,1,Multiple Failed Attempts
+691,861,58.0,2025-09-18,Online Transfer,POS,,182276.02,Mumbai,Success,1,High Value Transaction
+692,829,,2026-01-22,ATM Withdrawal,POS,,247049.13,Madurai,Success,1,Unusual Location
+693,569,,2025-02-26,POS Purchase,Mobile App,Swiggy,153268.16,Salem,Success,0,
+694,410,798.0,2025-02-18,UPI,ATM,Uber,113202.01,Chennai,Success,0,
+695,737,702.0,2026-04-16,Online Transfer,Internet Banking,,197190.89,Pune,Success,1,High Value Transaction
+696,550,,2026-07-09,POS Purchase,POS,Grocery Store,177774.75,Coimbatore,Success,0,
+697,910,,2025-03-15,Cash Deposit,POS,,60972.37,Chennai,Success,0,
+698,322,,2025-04-13,POS Purchase,Mobile App,Grocery Store,25122.16,Mumbai,Success,0,
+699,3,,2025-08-30,Cash Deposit,Branch,,24725.16,Bengaluru,Success,0,
+700,564,903.0,2026-02-01,NEFT,ATM,,185083.99,Madurai,Success,1,Unusual Location
+701,228,,2025-03-30,ATM Withdrawal,POS,,103892.45,Kochi,Pending,0,
+702,756,,2025-11-10,ATM Withdrawal,Internet Banking,,95155.87,Kochi,Success,0,
+703,189,,2025-09-21,ATM Withdrawal,Mobile App,,11638.63,Coimbatore,Success,0,
+704,990,,2025-09-05,ATM Withdrawal,Internet Banking,,118524.91,Mumbai,Success,0,
+705,893,859.0,2025-11-25,IMPS,Branch,,198589.83,Coimbatore,Success,1,Unusual Location
+706,7,,2026-08-22,ATM Withdrawal,ATM,,132318.67,Coimbatore,Success,0,
+707,818,431.0,2026-04-29,Online Transfer,Mobile App,,160681.28,Bengaluru,Success,0,
+708,353,465.0,2026-03-15,IMPS,ATM,,84674.04,Kochi,Success,0,
+709,450,692.0,2026-05-29,NEFT,ATM,,111592.19,Madurai,Success,0,
+710,145,,2025-12-29,POS Purchase,Branch,Fuel Station,211629.69,Coimbatore,Success,1,Unusual Location
+711,784,557.0,2025-08-13,IMPS,Internet Banking,,207312.37,Chennai,Success,1,Unusual Location
+712,213,,2026-06-22,POS Purchase,Branch,Electronics Store,114745.72,Mumbai,Success,0,
+713,48,,2025-10-23,POS Purchase,POS,Fuel Station,41551.73,Coimbatore,Success,0,
+714,807,210.0,2025-08-12,UPI,POS,Amazon,97806.48,Mumbai,Pending,0,
+715,114,701.0,2025-11-02,UPI,Internet Banking,Swiggy,17997.43,Coimbatore,Success,0,
+716,303,,2026-06-29,ATM Withdrawal,Branch,,127888.54,Delhi,Success,0,
+717,946,398.0,2025-11-17,UPI,ATM,Fuel Station,103972.98,Madurai,Pending,0,
+718,397,565.0,2026-07-27,UPI,ATM,Zomato,148329.49,Chennai,Success,0,
+719,555,234.0,2026-02-16,NEFT,Branch,,55050.34,Hyderabad,Success,0,
+720,81,,2025-05-29,Cash Deposit,POS,,191400.41,Salem,Success,1,Unusual Channel
+721,495,613.0,2025-08-17,UPI,Mobile App,Uber,233767.04,Coimbatore,Success,1,Rapid Transfer Pattern
+722,52,84.0,2026-07-11,NEFT,POS,,94342.38,Kochi,Success,0,
+723,526,21.0,2025-03-31,UPI,ATM,Grocery Store,39303.86,Coimbatore,Success,0,
+724,598,869.0,2026-05-07,UPI,ATM,Utility Bill,193191.91,Kochi,Success,1,Multiple Failed Attempts
+725,672,,2026-08-19,Cash Deposit,Internet Banking,,63085.88,Salem,Success,0,
+726,615,,2025-05-08,POS Purchase,POS,Flipkart,14314.37,Mumbai,Success,0,
+727,420,530.0,2025-04-08,UPI,Mobile App,Grocery Store,197652.81,Salem,Success,1,High Value Transaction
+728,964,,2025-03-20,ATM Withdrawal,Internet Banking,,222857.32,Kochi,Success,1,Rapid Transfer Pattern
+729,417,,2025-07-24,ATM Withdrawal,Internet Banking,,215406.48,Coimbatore,Success,1,Unusual Location
+730,979,763.0,2026-03-01,Online Transfer,Internet Banking,,91694.19,Coimbatore,Success,0,
+731,313,,2026-07-29,POS Purchase,Internet Banking,Grocery Store,152239.73,Coimbatore,Success,1,Unusual Channel
+732,539,664.0,2026-08-18,NEFT,Branch,,213251.11,Salem,Success,1,Multiple Failed Attempts
+733,971,,2025-01-14,ATM Withdrawal,ATM,,41755.75,Kochi,Success,0,
+734,506,228.0,2025-07-19,IMPS,POS,,87079.95,Delhi,Failed,0,
+735,822,,2026-06-24,ATM Withdrawal,Internet Banking,,209410.88,Pune,Success,1,High Value Transaction
+736,773,855.0,2025-02-27,Online Transfer,Branch,,211986.39,Hyderabad,Success,1,Unusual Channel
+737,616,341.0,2026-05-31,Online Transfer,Mobile App,,89378.56,Hyderabad,Success,0,
+738,432,697.0,2026-08-24,IMPS,POS,,225960.96,Madurai,Success,1,High Value Transaction
+739,157,158.0,2025-05-29,Online Transfer,POS,,120509.09,Pune,Success,0,
+740,914,615.0,2025-07-08,UPI,Mobile App,Utility Bill,85572.23,Madurai,Failed,1,High Value Transaction
+741,645,853.0,2026-05-21,IMPS,Mobile App,,184789.59,Delhi,Failed,1,High Value Transaction
+742,839,,2025-02-08,POS Purchase,POS,Flipkart,175833.43,Madurai,Success,0,
+743,586,213.0,2026-07-23,Online Transfer,Mobile App,,149598.71,Mumbai,Success,0,
+744,97,,2025-01-09,POS Purchase,ATM,Electronics Store,78556.42,Salem,Success,0,
+745,678,48.0,2026-03-15,IMPS,Branch,,184245.91,Mumbai,Success,1,Multiple Failed Attempts
+746,552,33.0,2026-07-30,NEFT,Mobile App,,116256.99,Salem,Success,0,
+747,181,652.0,2025-07-12,UPI,Internet Banking,Utility Bill,175684.29,Coimbatore,Success,1,Multiple Failed Attempts
+748,66,,2026-04-27,POS Purchase,POS,Zomato,16728.99,Delhi,Success,0,
+749,490,,2025-08-20,ATM Withdrawal,Internet Banking,,173133.4,Mumbai,Pending,1,Unusual Channel
+750,313,,2025-10-04,POS Purchase,POS,Flipkart,33237.77,Salem,Success,0,
+751,811,,2026-02-26,POS Purchase,ATM,Zomato,209887.53,Bengaluru,Success,1,Unusual Location
+752,321,,2025-04-13,ATM Withdrawal,ATM,,77204.43,Mumbai,Success,0,
+753,173,,2025-02-01,Cash Deposit,Mobile App,,74203.07,Bengaluru,Success,0,
+754,251,8.0,2025-11-12,IMPS,Mobile App,,202146.61,Kochi,Success,1,High Value Transaction
+755,121,,2025-03-08,Cash Deposit,Internet Banking,,167110.08,Pune,Success,1,Rapid Transfer Pattern
+756,9,,2026-05-22,Cash Deposit,Mobile App,,153210.88,Pune,Success,0,
+757,553,,2025-11-24,ATM Withdrawal,POS,,155048.31,Mumbai,Success,0,
+758,138,639.0,2025-02-27,Online Transfer,ATM,,75090.47,Madurai,Failed,0,
+759,184,,2025-07-24,ATM Withdrawal,ATM,,96447.32,Pune,Success,1,Multiple Failed Attempts
+760,274,,2025-02-06,Cash Deposit,Branch,,45391.53,Bengaluru,Success,0,
+761,392,434.0,2025-06-27,UPI,Branch,Swiggy,177810.13,Salem,Success,0,
+762,238,,2025-03-08,ATM Withdrawal,Branch,,134361.14,Madurai,Success,0,
+763,197,,2025-11-09,ATM Withdrawal,Branch,,152246.57,Bengaluru,Success,0,
+764,647,388.0,2026-03-11,Online Transfer,ATM,,214679.57,Bengaluru,Success,1,Unusual Channel
+765,277,,2026-07-06,POS Purchase,Mobile App,Hospital,102586.87,Hyderabad,Pending,0,
+766,264,756.0,2026-06-24,Online Transfer,ATM,,52250.87,Delhi,Success,0,
+767,627,,2026-01-06,ATM Withdrawal,Branch,,63675.01,Mumbai,Success,0,
+768,256,,2025-05-17,POS Purchase,Internet Banking,Grocery Store,181891.85,Pune,Success,1,Unusual Location
+769,276,356.0,2025-06-17,IMPS,ATM,,51130.19,Madurai,Success,0,
+770,959,,2026-05-07,Cash Deposit,Mobile App,,130813.14,Chennai,Success,0,
+771,438,,2025-10-18,Cash Deposit,Internet Banking,,201686.48,Pune,Success,1,Multiple Failed Attempts
+772,99,337.0,2025-02-15,UPI,Internet Banking,Uber,209892.77,Kochi,Success,1,Multiple Failed Attempts
+773,536,,2025-12-15,ATM Withdrawal,Branch,,50432.15,Mumbai,Success,0,
+774,521,,2025-10-19,POS Purchase,Mobile App,Hospital,237390.03,Delhi,Success,1,Multiple Failed Attempts
+775,986,594.0,2025-09-22,UPI,Branch,Electronics Store,108466.21,Chennai,Success,0,
+776,110,888.0,2026-03-20,IMPS,ATM,,114448.26,Salem,Success,0,
+777,867,987.0,2025-08-09,UPI,ATM,Grocery Store,65289.48,Mumbai,Success,0,
+778,974,492.0,2026-01-03,UPI,ATM,Fuel Station,178984.48,Delhi,Success,0,
+779,1,,2026-03-09,ATM Withdrawal,Branch,,163189.55,Chennai,Success,0,
+780,394,741.0,2025-07-05,Online Transfer,Mobile App,,122899.56,Hyderabad,Success,0,
+781,213,909.0,2026-03-22,Online Transfer,Branch,,242417.22,Salem,Success,1,High Value Transaction
+782,905,778.0,2025-01-18,Online Transfer,Mobile App,,244103.59,Pune,Success,1,Unusual Location
+783,878,319.0,2025-02-16,IMPS,POS,,176881.63,Bengaluru,Success,0,
+784,768,,2026-03-22,POS Purchase,Branch,Flipkart,225310.1,Kochi,Success,1,Multiple Failed Attempts
+785,602,982.0,2025-02-04,Online Transfer,Internet Banking,,42037.88,Bengaluru,Success,0,
+786,883,,2026-05-18,POS Purchase,Branch,Fuel Station,170653.97,Bengaluru,Success,0,
+787,896,,2026-02-26,Cash Deposit,ATM,,207747.27,Hyderabad,Success,1,Rapid Transfer Pattern
+788,587,890.0,2025-02-23,NEFT,Internet Banking,,61199.0,Delhi,Success,0,
+789,525,,2025-03-23,ATM Withdrawal,ATM,,87763.41,Bengaluru,Success,1,Multiple Failed Attempts
+790,387,,2025-01-02,ATM Withdrawal,Branch,,150310.44,Mumbai,Success,0,
+791,516,,2026-04-16,POS Purchase,Internet Banking,Utility Bill,214927.63,Madurai,Success,1,Unusual Location
+792,50,425.0,2025-05-31,UPI,Mobile App,Amazon,222894.24,Hyderabad,Success,1,Unusual Channel
+793,260,265.0,2026-02-17,Online Transfer,POS,,76080.74,Madurai,Success,0,
+794,387,239.0,2025-04-18,NEFT,POS,,186827.39,Madurai,Success,1,Unusual Channel
+795,201,732.0,2025-02-18,UPI,Internet Banking,Electronics Store,55665.34,Hyderabad,Success,0,
+796,908,908.0,2026-03-15,Online Transfer,Mobile App,,111680.5,Bengaluru,Success,0,
+797,912,,2025-11-17,POS Purchase,Internet Banking,Amazon,34062.63,Madurai,Success,0,
+798,932,,2026-05-23,Cash Deposit,Internet Banking,,138611.57,Mumbai,Success,1,Rapid Transfer Pattern
+799,628,860.0,2026-05-30,Online Transfer,POS,,68226.49,Pune,Success,0,
+800,363,807.0,2025-09-17,UPI,Internet Banking,Amazon,212125.57,Hyderabad,Success,1,Unusual Location
+801,430,154.0,2025-01-24,Online Transfer,ATM,,139437.41,Kochi,Success,0,
+802,364,,2025-11-02,Cash Deposit,Internet Banking,,20221.22,Coimbatore,Success,0,
+803,773,,2025-03-01,POS Purchase,POS,Amazon,117849.02,Chennai,Success,1,Rapid Transfer Pattern
+804,757,744.0,2026-06-03,UPI,Mobile App,Swiggy,8470.93,Hyderabad,Success,0,
+805,740,,2025-12-08,POS Purchase,Branch,Fuel Station,65921.55,Pune,Success,0,
+806,977,,2026-03-17,POS Purchase,POS,Amazon,45155.32,Chennai,Success,0,
+807,38,,2025-03-13,ATM Withdrawal,Branch,,65131.08,Chennai,Success,0,
+808,835,80.0,2025-03-22,IMPS,Mobile App,,76985.47,Salem,Success,0,
+809,613,,2025-11-18,Cash Deposit,Internet Banking,,125515.87,Coimbatore,Success,1,High Value Transaction
+810,700,,2026-04-04,Cash Deposit,POS,,221694.19,Mumbai,Success,1,High Value Transaction
+811,320,436.0,2025-04-06,UPI,Internet Banking,Grocery Store,182568.54,Delhi,Success,1,High Value Transaction
+812,288,422.0,2026-02-14,NEFT,Branch,,180164.75,Delhi,Success,1,Unusual Channel
+813,726,378.0,2026-02-18,NEFT,Mobile App,,153566.11,Pune,Pending,0,
+814,601,,2025-06-18,Cash Deposit,Branch,,93794.32,Hyderabad,Success,1,High Value Transaction
+815,748,931.0,2025-10-20,NEFT,POS,,45202.12,Chennai,Success,0,
+816,859,,2025-06-28,POS Purchase,Branch,Swiggy,120346.56,Coimbatore,Success,0,
+817,364,,2025-02-03,ATM Withdrawal,Branch,,16901.46,Mumbai,Success,0,
+818,462,,2025-04-03,POS Purchase,Branch,Uber,216916.95,Kochi,Success,1,Multiple Failed Attempts
+819,348,848.0,2025-05-12,UPI,Mobile App,Amazon,41998.14,Hyderabad,Success,0,
+820,269,,2025-08-20,ATM Withdrawal,POS,,70578.29,Madurai,Success,0,
+821,232,,2026-02-21,ATM Withdrawal,Branch,,209591.85,Delhi,Success,1,Unusual Location
+822,491,,2026-01-11,POS Purchase,ATM,Flipkart,75681.34,Madurai,Success,0,
+823,9,,2026-03-05,Cash Deposit,Mobile App,,35424.43,Pune,Success,0,
+824,81,,2026-01-09,Cash Deposit,Branch,,87380.52,Bengaluru,Success,0,
+825,501,827.0,2025-03-01,Online Transfer,Mobile App,,137639.3,Salem,Success,0,
+826,723,939.0,2025-06-24,IMPS,ATM,,221559.56,Madurai,Pending,1,Rapid Transfer Pattern
+827,370,386.0,2026-04-17,IMPS,ATM,,201932.0,Pune,Success,1,Unusual Channel
+828,221,319.0,2026-06-30,IMPS,ATM,,134555.43,Salem,Success,0,
+829,913,,2026-06-30,ATM Withdrawal,ATM,,179147.55,Coimbatore,Success,0,
+830,887,837.0,2025-06-27,Online Transfer,POS,,96356.35,Mumbai,Failed,0,
+831,106,862.0,2025-09-05,Online Transfer,Branch,,172315.43,Chennai,Success,0,
+832,754,,2026-06-12,POS Purchase,ATM,Utility Bill,230942.86,Bengaluru,Success,1,Unusual Channel
+833,303,,2025-04-01,ATM Withdrawal,Mobile App,,22760.41,Hyderabad,Success,0,
+834,341,201.0,2025-02-25,Online Transfer,Mobile App,,220675.19,Coimbatore,Success,1,High Value Transaction
+835,195,452.0,2026-06-30,Online Transfer,Mobile App,,14815.63,Coimbatore,Success,1,High Value Transaction
+836,916,563.0,2025-11-07,NEFT,Internet Banking,,11958.41,Pune,Success,0,
+837,417,244.0,2025-11-09,NEFT,Internet Banking,,185381.44,Pune,Pending,1,Rapid Transfer Pattern
+838,123,612.0,2025-04-11,NEFT,POS,,195793.06,Bengaluru,Success,1,Multiple Failed Attempts
+839,879,157.0,2025-02-26,Online Transfer,Mobile App,,226219.39,Delhi,Success,1,High Value Transaction
+840,958,996.0,2025-04-18,NEFT,ATM,,154569.1,Delhi,Pending,1,Unusual Location
+841,707,,2026-06-24,ATM Withdrawal,ATM,,154003.28,Bengaluru,Success,0,
+842,257,145.0,2026-03-04,NEFT,ATM,,33586.0,Madurai,Failed,0,
+843,156,365.0,2026-02-16,NEFT,Internet Banking,,171784.82,Bengaluru,Success,1,Unusual Location
+844,856,978.0,2025-05-30,IMPS,Internet Banking,,154608.97,Chennai,Success,1,Rapid Transfer Pattern
+845,509,12.0,2025-12-20,NEFT,ATM,,143276.51,Salem,Success,0,
+846,678,505.0,2025-05-13,NEFT,Mobile App,,199933.28,Bengaluru,Success,1,Unusual Location
+847,51,,2026-04-20,POS Purchase,POS,Uber,175894.45,Madurai,Success,1,Unusual Location
+848,753,962.0,2025-05-06,IMPS,POS,,32291.59,Bengaluru,Success,0,
+849,91,,2026-06-09,POS Purchase,ATM,Amazon,73880.87,Bengaluru,Failed,0,
+850,971,,2025-02-14,ATM Withdrawal,Internet Banking,,129050.51,Mumbai,Success,1,Unusual Channel
+851,811,,2025-01-14,POS Purchase,Mobile App,Fuel Station,233832.17,Pune,Success,1,Unusual Location
+852,270,622.0,2025-12-16,IMPS,Internet Banking,,112843.68,Chennai,Success,0,
+853,24,,2026-08-22,ATM Withdrawal,Branch,,64368.2,Madurai,Success,0,
+854,402,37.0,2025-04-07,Online Transfer,POS,,240737.9,Delhi,Success,1,Rapid Transfer Pattern
+855,442,,2026-07-27,POS Purchase,Branch,Electronics Store,201334.26,Madurai,Success,1,Multiple Failed Attempts
+856,454,436.0,2025-09-01,UPI,Mobile App,Flipkart,182028.51,Hyderabad,Success,1,High Value Transaction
+857,427,,2025-04-01,POS Purchase,Branch,Flipkart,161823.87,Hyderabad,Success,1,High Value Transaction
+858,945,772.0,2026-04-03,IMPS,Branch,,69932.61,Coimbatore,Success,0,
+859,631,,2025-05-05,Cash Deposit,ATM,,3954.41,Mumbai,Success,0,
+860,534,574.0,2025-06-22,IMPS,Mobile App,,146757.17,Salem,Success,0,
+861,76,829.0,2026-07-31,IMPS,ATM,,147321.42,Chennai,Pending,0,
+862,239,,2026-01-03,POS Purchase,Branch,Flipkart,76975.61,Delhi,Success,0,
+863,655,,2025-05-10,Cash Deposit,Mobile App,,14168.23,Delhi,Success,0,
+864,828,414.0,2026-06-26,IMPS,Branch,,139192.64,Delhi,Success,0,
+865,340,171.0,2026-01-12,NEFT,POS,,95061.46,Madurai,Success,0,
+866,894,,2026-07-04,Cash Deposit,POS,,221487.92,Chennai,Success,1,High Value Transaction
+867,540,,2026-03-24,POS Purchase,Mobile App,Grocery Store,54661.61,Madurai,Success,0,
+868,549,497.0,2026-02-24,NEFT,Internet Banking,,181900.52,Kochi,Success,1,Multiple Failed Attempts
+869,972,997.0,2025-10-03,Online Transfer,Branch,,99865.99,Mumbai,Success,0,
+870,851,366.0,2025-07-25,Online Transfer,POS,,143752.88,Coimbatore,Failed,1,Rapid Transfer Pattern
+871,919,163.0,2026-05-31,IMPS,Mobile App,,86218.77,Salem,Success,0,
+872,551,66.0,2025-10-26,Online Transfer,ATM,,177163.53,Madurai,Success,0,
+873,909,,2026-03-31,POS Purchase,Internet Banking,Utility Bill,245691.78,Coimbatore,Success,1,High Value Transaction
+874,809,264.0,2025-12-09,UPI,Internet Banking,Zomato,154312.29,Mumbai,Success,1,Rapid Transfer Pattern
+875,807,447.0,2025-11-15,IMPS,Mobile App,,79641.56,Coimbatore,Success,0,
+876,452,9.0,2025-02-21,UPI,POS,Hospital,132394.17,Hyderabad,Success,0,
+877,517,,2026-02-10,ATM Withdrawal,ATM,,204562.31,Hyderabad,Success,1,High Value Transaction
+878,777,,2025-06-08,Cash Deposit,Internet Banking,,184128.4,Bengaluru,Failed,1,Unusual Channel
+879,130,221.0,2025-11-09,IMPS,Branch,,131128.95,Salem,Success,0,
+880,391,,2025-09-18,ATM Withdrawal,Branch,,102611.43,Delhi,Success,0,
+881,51,995.0,2025-02-04,IMPS,Branch,,238733.91,Mumbai,Success,1,Unusual Channel
+882,202,,2025-03-15,Cash Deposit,ATM,,227506.34,Pune,Success,1,Unusual Location
+883,766,765.0,2026-05-13,IMPS,Branch,,60578.5,Coimbatore,Failed,0,
+884,335,600.0,2025-06-07,UPI,ATM,Fuel Station,65377.55,Chennai,Success,0,
+885,448,649.0,2025-05-22,Online Transfer,Internet Banking,,121190.48,Kochi,Success,1,Rapid Transfer Pattern
+886,768,65.0,2025-04-20,NEFT,Mobile App,,51631.91,Salem,Success,0,
+887,728,456.0,2025-06-07,Online Transfer,Internet Banking,,132725.83,Madurai,Success,1,High Value Transaction
+888,175,740.0,2025-08-11,Online Transfer,Mobile App,,245280.68,Madurai,Success,1,High Value Transaction
+889,690,92.0,2025-06-12,Online Transfer,Mobile App,,124332.14,Delhi,Success,0,
+890,267,,2026-06-09,Cash Deposit,Mobile App,,54464.28,Mumbai,Success,0,
+891,405,,2025-01-23,Cash Deposit,Branch,,731.67,Kochi,Success,0,
+892,85,,2026-06-01,Cash Deposit,Branch,,166609.31,Coimbatore,Success,0,
+893,384,,2025-10-11,POS Purchase,Branch,Uber,92644.29,Coimbatore,Success,0,
+894,619,689.0,2025-04-13,Online Transfer,POS,,195210.06,Delhi,Failed,1,Multiple Failed Attempts
+895,555,660.0,2025-12-11,IMPS,POS,,44542.97,Salem,Success,0,
+896,451,597.0,2025-02-07,Online Transfer,Internet Banking,,111290.83,Kochi,Success,0,
+897,334,,2025-08-04,Cash Deposit,Mobile App,,75817.8,Mumbai,Success,0,
+898,785,881.0,2026-02-25,UPI,Internet Banking,Hospital,108034.15,Bengaluru,Pending,0,
+899,744,,2025-02-25,Cash Deposit,Mobile App,,767.96,Kochi,Success,0,
+900,973,369.0,2026-04-20,Online Transfer,ATM,,173514.0,Kochi,Success,0,
+901,53,,2025-09-16,ATM Withdrawal,ATM,,166031.14,Kochi,Success,0,
+902,235,,2025-09-04,Cash Deposit,Mobile App,,191648.29,Coimbatore,Success,1,Rapid Transfer Pattern
+903,711,,2026-01-10,POS Purchase,POS,Electronics Store,134186.25,Madurai,Success,0,
+904,261,749.0,2026-05-15,Online Transfer,Mobile App,,26055.21,Mumbai,Success,0,
+905,547,635.0,2025-11-18,NEFT,Mobile App,,82266.87,Bengaluru,Success,0,
+906,149,855.0,2026-08-20,Online Transfer,Mobile App,,134148.03,Pune,Success,0,
+907,613,101.0,2026-02-23,UPI,Mobile App,Fuel Station,75422.83,Chennai,Success,0,
+908,920,644.0,2025-05-01,IMPS,Mobile App,,227496.14,Hyderabad,Success,1,Unusual Channel
+909,219,455.0,2025-01-02,NEFT,Mobile App,,185441.72,Mumbai,Success,1,High Value Transaction
+910,258,,2025-04-09,Cash Deposit,Internet Banking,,100171.75,Mumbai,Success,0,
+911,505,128.0,2026-07-24,UPI,POS,Utility Bill,167393.3,Pune,Success,0,
+912,43,,2025-10-18,POS Purchase,Internet Banking,Utility Bill,129598.57,Delhi,Success,1,Unusual Location
+913,27,80.0,2026-04-17,IMPS,Internet Banking,,47821.78,Pune,Success,0,
+914,32,,2025-02-06,ATM Withdrawal,ATM,,164797.47,Delhi,Success,0,
+915,810,,2026-03-19,Cash Deposit,ATM,,161586.82,Salem,Success,0,
+916,542,721.0,2025-06-09,NEFT,ATM,,78219.01,Coimbatore,Success,0,
+917,374,790.0,2026-08-23,IMPS,POS,,144617.39,Delhi,Success,0,
+918,694,,2025-09-03,POS Purchase,Internet Banking,Utility Bill,62571.67,Pune,Success,0,
+919,609,137.0,2026-07-01,UPI,ATM,Grocery Store,101939.06,Hyderabad,Success,0,
+920,88,,2025-04-20,POS Purchase,Mobile App,Zomato,241762.96,Salem,Success,1,Rapid Transfer Pattern
+921,195,651.0,2025-11-14,UPI,Mobile App,Hospital,11877.37,Hyderabad,Success,0,
+922,872,,2026-08-05,POS Purchase,Mobile App,Fuel Station,168125.79,Kochi,Success,0,
+923,906,23.0,2025-07-20,NEFT,Mobile App,,15732.64,Chennai,Success,0,
+924,937,793.0,2026-03-24,NEFT,POS,,114123.61,Pune,Success,0,
+925,158,,2025-12-17,ATM Withdrawal,Branch,,97518.99,Bengaluru,Failed,0,
+926,686,969.0,2025-09-28,NEFT,Internet Banking,,103828.63,Coimbatore,Success,0,
+927,519,,2026-03-16,Cash Deposit,Internet Banking,,216009.44,Salem,Success,1,Unusual Channel
+928,689,,2025-06-20,POS Purchase,POS,Utility Bill,32192.8,Bengaluru,Success,1,High Value Transaction
+929,946,151.0,2025-12-08,UPI,Branch,Hospital,27140.54,Mumbai,Success,0,
+930,777,645.0,2025-10-07,UPI,Mobile App,Fuel Station,189718.89,Pune,Success,1,Unusual Channel
+931,384,79.0,2025-04-23,Online Transfer,Mobile App,,171641.56,Madurai,Success,0,
+932,792,392.0,2026-04-06,NEFT,Mobile App,,171914.39,Hyderabad,Success,0,
+933,19,,2026-07-07,POS Purchase,ATM,Flipkart,171818.65,Salem,Success,0,
+934,858,309.0,2025-04-13,UPI,Branch,Grocery Store,237809.8,Mumbai,Success,1,High Value Transaction
+935,267,,2025-03-18,POS Purchase,POS,Uber,95562.26,Madurai,Success,1,Unusual Channel
+936,332,,2026-03-30,ATM Withdrawal,ATM,,66814.05,Bengaluru,Success,0,
+937,934,,2026-02-09,POS Purchase,ATM,Uber,97352.93,Kochi,Failed,0,
+938,48,,2026-05-10,ATM Withdrawal,Internet Banking,,183105.41,Delhi,Success,1,Multiple Failed Attempts
+939,243,759.0,2026-01-18,UPI,POS,Amazon,193892.35,Kochi,Success,1,Unusual Location
+940,706,190.0,2025-04-07,NEFT,Internet Banking,,209600.58,Kochi,Success,1,Rapid Transfer Pattern
+941,559,,2026-07-29,Cash Deposit,Internet Banking,,130935.8,Chennai,Success,1,High Value Transaction
+942,514,,2025-06-15,Cash Deposit,POS,,97543.76,Delhi,Success,1,Rapid Transfer Pattern
+943,815,,2025-04-22,Cash Deposit,Internet Banking,,100211.36,Salem,Success,0,
+944,411,21.0,2026-02-01,NEFT,POS,,9347.54,Mumbai,Success,0,
+945,583,,2025-08-23,Cash Deposit,Internet Banking,,8394.27,Mumbai,Success,0,
+946,834,,2025-02-24,ATM Withdrawal,Branch,,165534.72,Coimbatore,Success,0,
+947,756,,2025-04-13,Cash Deposit,Branch,,215857.75,Hyderabad,Success,1,Multiple Failed Attempts
+948,146,180.0,2025-05-01,UPI,ATM,Utility Bill,144936.34,Hyderabad,Success,0,
+949,255,350.0,2025-06-25,UPI,POS,Fuel Station,159440.32,Chennai,Success,0,
+950,116,523.0,2026-04-12,NEFT,ATM,,105918.56,Pune,Success,0,
+951,527,792.0,2026-01-12,IMPS,Branch,,2715.09,Madurai,Success,0,
+952,516,,2025-03-26,POS Purchase,Branch,Amazon,206906.27,Delhi,Success,1,Unusual Channel
+953,907,492.0,2025-11-15,IMPS,ATM,,200878.95,Pune,Failed,1,Unusual Location
+954,588,898.0,2025-06-16,NEFT,Mobile App,,54496.27,Coimbatore,Success,0,
+955,930,,2026-07-11,ATM Withdrawal,POS,,201971.01,Hyderabad,Success,1,Multiple Failed Attempts
+956,339,580.0,2026-08-16,NEFT,Branch,,91974.07,Chennai,Failed,0,
+957,348,465.0,2025-04-13,IMPS,Branch,,202025.73,Kochi,Failed,1,High Value Transaction
+958,878,,2026-02-25,ATM Withdrawal,POS,,121534.52,Madurai,Success,1,High Value Transaction
+959,915,,2026-01-27,ATM Withdrawal,POS,,143325.04,Chennai,Success,0,
+960,987,,2026-07-23,Cash Deposit,POS,,98100.89,Salem,Success,0,
+961,245,,2026-07-25,Cash Deposit,Mobile App,,112109.69,Kochi,Success,0,
+962,414,10.0,2026-02-02,IMPS,Internet Banking,,114430.52,Mumbai,Success,0,
+963,333,819.0,2026-04-11,NEFT,Branch,,235441.41,Hyderabad,Success,1,Unusual Location
+964,779,,2026-08-18,POS Purchase,POS,Fuel Station,59159.92,Kochi,Success,0,
+965,774,120.0,2025-01-01,Online Transfer,Mobile App,,245909.86,Mumbai,Success,1,Multiple Failed Attempts
+966,880,223.0,2025-04-30,Online Transfer,Internet Banking,,10892.98,Madurai,Success,0,
+967,353,167.0,2026-05-11,IMPS,Mobile App,,96815.48,Chennai,Success,0,
+968,799,736.0,2025-11-03,Online Transfer,Branch,,212192.63,Kochi,Success,1,High Value Transaction
+969,108,315.0,2026-04-06,UPI,Branch,Utility Bill,26964.89,Mumbai,Success,0,
+970,360,810.0,2026-04-12,UPI,POS,Swiggy,104640.06,Bengaluru,Success,0,
+971,591,,2025-01-26,Cash Deposit,Mobile App,,52601.07,Hyderabad,Success,0,
+972,624,542.0,2025-12-24,NEFT,Internet Banking,,126916.91,Delhi,Success,1,Unusual Location
+973,389,187.0,2026-02-22,NEFT,Branch,,180918.87,Coimbatore,Success,1,Unusual Channel
+974,954,,2026-03-30,Cash Deposit,Internet Banking,,102500.79,Kochi,Failed,1,Unusual Location
+975,611,,2026-02-21,ATM Withdrawal,POS,,93708.85,Bengaluru,Success,0,
+976,509,,2025-03-29,POS Purchase,Internet Banking,Amazon,117162.12,Kochi,Success,1,Rapid Transfer Pattern
+977,127,,2025-02-03,Cash Deposit,Internet Banking,,32591.11,Delhi,Success,0,
+978,923,,2025-08-26,POS Purchase,Mobile App,Zomato,163324.2,Hyderabad,Success,0,
+979,147,,2026-01-24,Cash Deposit,POS,,53997.21,Chennai,Success,0,
+980,834,,2026-08-03,ATM Withdrawal,Internet Banking,,177121.44,Mumbai,Success,1,High Value Transaction
+981,409,449.0,2026-07-05,NEFT,POS,,153031.82,Delhi,Success,0,
+982,144,,2025-09-06,ATM Withdrawal,POS,,149736.54,Kochi,Success,0,
+983,50,908.0,2026-07-24,UPI,Mobile App,Utility Bill,8348.27,Mumbai,Success,0,
+984,799,,2025-04-30,POS Purchase,ATM,Hospital,236775.75,Madurai,Success,1,Rapid Transfer Pattern
+985,171,7.0,2025-11-28,Online Transfer,POS,,90591.29,Hyderabad,Pending,0,
+986,421,374.0,2025-12-08,Online Transfer,POS,,190057.15,Chennai,Success,1,Unusual Location
+987,564,696.0,2025-07-04,UPI,Branch,Amazon,132555.49,Hyderabad,Success,0,
+988,974,,2026-05-08,ATM Withdrawal,POS,,32602.34,Chennai,Failed,0,
+989,96,988.0,2026-03-01,NEFT,Mobile App,,155395.88,Hyderabad,Pending,0,
+990,795,,2026-08-03,POS Purchase,Branch,Grocery Store,144214.78,Kochi,Success,0,
+991,907,,2025-06-11,POS Purchase,ATM,Uber,129896.71,Salem,Success,0,
+992,419,683.0,2026-08-15,IMPS,ATM,,43502.92,Delhi,Success,0,
+993,118,,2026-07-09,POS Purchase,POS,Grocery Store,106834.86,Madurai,Success,0,
+994,5,,2026-05-15,ATM Withdrawal,ATM,,4944.6,Mumbai,Success,0,
+995,82,,2025-01-04,ATM Withdrawal,POS,,37600.74,Coimbatore,Success,0,
+996,501,283.0,2026-06-27,Online Transfer,Mobile App,,90276.99,Kochi,Success,1,High Value Transaction
+997,57,426.0,2025-05-15,Online Transfer,Internet Banking,,217124.09,Kochi,Success,1,High Value Transaction
+998,799,,2026-08-08,POS Purchase,Internet Banking,Electronics Store,24509.04,Mumbai,Success,0,
+999,846,548.0,2025-12-16,IMPS,Internet Banking,,12795.11,Mumbai,Success,1,Unusual Channel
+1000,207,146.0,2025-09-01,Online Transfer,Branch,,3447.87,Madurai,Success,0,
