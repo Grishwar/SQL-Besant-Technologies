@@ -118,7 +118,7 @@ This project is ideal for showcasing SQL, database management, data analytics, a
 
 The ER diagram shows the relationships between customers, branches, accounts, cards, beneficiaries, transactions, loans, and login activities.
 
-![Banking Fraud Detection ER Diagram](banking_fraud_er_diagram.png)
+<img width="889" height="585" alt="image" src="https://github.com/user-attachments/assets/6b2a9975-80b9-4094-9c6c-87ae68f0db61" />
 
 ---
 
