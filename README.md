@@ -1,4 +1,3 @@
-"# SQL-Besant-Technologies" 
 Banking Fraud Detection System
 
 A SQL-based Banking Fraud Detection System developed using MySQL to manage banking data and identify suspicious financial and login activities. This project demonstrates relational database management, SQL analytics, fraud detection queries, reporting, stored procedures, triggers, and database optimization.
@@ -13,7 +12,7 @@ SQL Query Development
 Fraud Detection & Analysis
 Transaction Analytics
 Customer & Account Analysis
-Reporting & Insights Generation 
+Reporting & Insights Generation
 
 The project contains 8 relational tables with 1,000 records in each table, giving a total of 8,000 synthetic records.
 
@@ -320,10 +319,12 @@ transactions	1,000
 loans	1,000
 login_activity	1,000
 Total	8,000
+
 Author
 Grishwar S V
 BE Computer Science and Engineering
 Interested in SQL, Data Analytics, Full Stack Development, and Backend Development
+
 Conclusion
 
 The Banking Fraud Detection System is a SQL-based project that demonstrates database design, relational data management, transaction analysis, and fraud detection using MySQL. The project combines 8 interconnected tables and 8,000 synthetic records to provide practical experience with SQL querying, advanced analytics, stored procedures, triggers, and reporting.
